@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2020 @guardiancrow
+Released under the MIT license
+-->
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.min.css">
+	<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script src="js/main.js"></script>
+
+	<link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
+	<style type="text/css">
+		.超人 {
+			background-color: rgb(255, 182, 193);
+		}
+
+		.魔性 {
+			background-color: rgb(173, 216, 230);
+		}
+
+		.精神 {
+			background-color: rgb(144, 238, 144);
+		}
+
+		.自然 {
+			background-color: rgb(255, 255, 224);
+		}
+
+		.科学 {
+			background-color: rgb(221, 160, 221);
+		}
+
+		.特典 {
+			background-color: rgb(255, 165, 0);
+		}
+
+		.イベント配布 {
+			background-color: rgb(230, 230, 250);
+		}
+
+		.イベント抽選 {
+			background-color: rgb(255, 245, 238);
+		}
+
+		.五車祭 {
+			background-color: rgb(144, 238, 144);
+		}
+
+		.toast-group {
+			position: fixed;
+			top: 1rem;
+			right: 1rem;
+			z-index: 9999;
+		}
+
+		@media screen and (max-width: 575px) {
+
+			.th-status,
+			.th-status-sm {
+				width: 135px;
+			}
+
+			.th-evo,
+			.th-trust,
+			.th-evo-sm,
+			.th-trust-sm {
+				width: 80px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron mt-2">
+			<h1>新米オークの秘密デッキ</h1>
+			<p class="lead">対魔忍RPGのユニットを管理しましょう</p>
+			<hr>
+			<p class="small text-muted">所有ユニットを入力して始めましょう</p>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="overview">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6 btn-group">
+				<input type="button" class="btn btn-info btn-sm" value="ブラウザに保存" id="save_local" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="small text-right">所有ユニットのデータはブラウザ内に保存され、ページを開くと自動で読み込まれます</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="unittable">
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<div id="attention">
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6 btn-group">
+				<input type="button" class="btn btn-warning btn-sm" value="所有データの消去" id="clear_local" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="small text-right">（ブラウザに保存されているこのページのデータを消去し初期化します）</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="small text-right text-muted">
+					それぞれの商標・著作権やその他の権利は、それぞれの団体に帰属します。<br>
+					シークレット・プライベートウインドウでは所有データは保存されません。<br>
+					内容の正確性について保証するものではありません。<br>
+					できるだけ大きな解像度を推奨。スマフォの場合は横画面推奨です。<br>
+					作成にあたり攻略wikiの情報を参考にしました。ありがとうございます。
+				</p>
+			</div>
+		</div>
+		<div class="toast-group">
+			<div id="toast_save" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+				<div class="toast-header">
+					<svg class=" rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+						<rect fill="#007aff" width="100%" height="100%" /></svg>
+					<strong class="mr-auto">データを保存しました</strong>
+					<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="toast-body">
+					反映されない場合はページを更新してください
+				</div>
+			</div>
+			<div id="toast_clear" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+				<div class="toast-header">
+					<svg class=" rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+						<rect fill="#ff7a00" width="100%" height="100%" /></svg>
+					<strong class="mr-auto">データを消去しました</strong>
+					<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="toast-body">
+					反映されない場合はページを更新してください
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
