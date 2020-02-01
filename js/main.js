@@ -23,9 +23,9 @@ $(document).ready(function() {
 		"none"
 	];
 
-	const rot_sr = 0.0008;
-	const rot_hr = 0.0025;
-	const rot_r = 0.0193;
+	const rot_sr = 0.0007;
+	const rot_hr = 0.0024;
+	const rot_r = 0.0189;
 	var sort_option = 'id';
 
 	var vaildData = function(data) {

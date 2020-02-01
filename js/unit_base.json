@@ -1485,5 +1485,37 @@
 		"name": "メイ",
 		"nickname": "",
 		"rarity": "R"
+	},
+	{
+		"attribute": "自然",
+		"id": 47001,
+		"limited": "イベント配布",
+		"name": "眞田　焔",
+		"nickname": "【槍炎の戦闘狂】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "超人",
+		"id": 47002,
+		"limited": "",
+		"name": "八津　紫",
+		"nickname": "【淡き若紫】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "魔性",
+		"id": 47003,
+		"limited": "",
+		"name": "玉藻",
+		"nickname": "",
+		"rarity": "HR"
+	},
+	{
+		"attribute": "精神",
+		"id": 47004,
+		"limited": "",
+		"name": "ルーラー",
+		"nickname": "",
+		"rarity": "R"
 	}
 ]
