@@ -637,8 +637,35 @@ $(document).ready(function() {
 		return table;
 	}
 
-	var buildSaveToast = function() {
+	var buildTrainingTable = function(data) {
+		var table = $('<table class="table table-bordered"></table>');
+		var thead = $('<thead><tr><th>育成完了</th><th>育成中</th><th>待機中</th><th>欲しい！</th><th>未所有</th></tr></thead>');
+		var tbody = $('<tbody></tbody>');
 
+		var personal_status = {
+			"max": 0,
+			"grow": 0,
+			"wait": 0,
+			"wish": 0,
+			"none": 0
+		};
+
+		for (var i = 0; i < data.length; i++) {
+			if (data[i].status === '') {
+				personal_status.none++;
+				continue;
+			}
+			personal_status[data[i].status]++;
+		}
+
+		var row = $("<tr></tr>");
+		row.append("<td>" + personal_status.max + "</td>" + "<td>" + personal_status.grow + "</td>" + "<td>" + personal_status.wait + "</td>" + "<td>" + personal_status.wish + "</td>" + "<td>" + personal_status.none + "</td>");
+		tbody.append(row);
+
+		table.append(thead);
+		table.append(tbody);
+
+		return table;
 	}
 
 	var renderOverview = function(data) {
@@ -672,8 +699,14 @@ $(document).ready(function() {
 		h3 = $("<h3>");
 		h3.append(textbody);
 		cardheader.append(h3);
+		cardbody.append('<h4>所有概要</h4>');
 		cardbody.append(table);
 		cardbody.append('<p class="small text-muted">所有／実装済み</p>');
+
+		table = buildTrainingTable(data);
+		cardbody.append('<h4>育成概要</h4>');
+		cardbody.append(table);
+
 		collapse.append(cardbody);
 		card.append(cardheader);
 		card.append(collapse);
