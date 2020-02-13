@@ -26,6 +26,7 @@ $(document).ready(function() {
 	const rot_sr = 0.0007;
 	const rot_hr = 0.0024;
 	const rot_r = 0.0189;
+	var rot_user = 0;
 	var sort_option = 'id';
 
 	var vaildData = function(data) {
@@ -481,17 +482,17 @@ $(document).ready(function() {
 					switch (elem.rarity) {
 						case 'SR':
 							row.append('<td>' + Math.floor(rot_sr * 10000.0) / 100.0 + '％</td>');
-							lot = 1.0 - Math.pow((100.0 - rot_sr * 100) / 100.0, 100);
+							lot = 1.0 - Math.pow((100.0 - rot_sr * 100.0) / 100.0, 100);
 							row.append('<td>' + Math.floor(lot * 10000.0) / 100.0 + '％</td>');
 							break;
 						case 'HR':
 							row.append('<td>' + Math.floor(rot_hr * 10000.0) / 100.0 + '％</td>');
-							lot = 1.0 - Math.pow((100.0 - rot_hr * 100) / 100.0, 100);
+							lot = 1.0 - Math.pow((100.0 - rot_hr * 100.0) / 100.0, 100);
 							row.append('<td>' + Math.floor(lot * 10000.0) / 100.0 + '％</td>');
 							break;
 						case 'R':
 							row.append('<td>' + Math.floor(rot_r * 10000.0) / 100.0 + '％</td>');
-							lot = 1.0 - Math.pow((100.0 - rot_r * 100) / 100.0, 100);
+							lot = 1.0 - Math.pow((100.0 - rot_r * 100.0) / 100.0, 100);
 							row.append('<td>' + Math.floor(lot * 10000.0) / 100.0 + '％</td>');
 							break;
 						default:
@@ -668,6 +669,132 @@ $(document).ready(function() {
 		return table;
 	}
 
+	var buildAnalyzeContainer = function(data) {
+		var container = $('<div id="AnalyzeContainer"></div>');
+		var groupRot = $('<div class="form-group"></div>');
+		var formrowRot = $('<div class="form-row px-4"></div>');
+		var labelRot = $('<label for="user_rot_number">確率を追加できます（％）</label>');
+		var inputRot = $('<input type="number" name="user_rot_number" id="user_rot_number" class="form-control col" min="0" max="100" step="0.01" value="0.01">');
+		var buttonRot = $('<button class="btn btn-primary col" id="user_rot_button">追加</button>');
+		var canvas = $('<canvas id="RotChart"></canvas>');
+		formrowRot.append(inputRot);
+		formrowRot.append(buttonRot);
+		groupRot.append(labelRot);
+		groupRot.append(formrowRot);
+		container.append(canvas);
+		container.append(groupRot);
+
+		return container;
+	}
+
+	var drawRotChart = function() {
+		var canvas = $('#RotChart');
+		canvas.empty();
+
+		var calcrot = function(rot_single, times) {
+			return 1.0 - Math.pow((100.0 - rot_single * times) / 100.0, 100);
+		}
+
+		var datapoints_r = [];
+		var datapoints_hr = [];
+		var datapoints_sr = [];
+		for (var i = 0; i <= 100; i += 10) {
+			datapoints_r.push(Math.floor(calcrot(rot_r, i) * 10000.0) / 100.0);
+			datapoints_hr.push(Math.floor(calcrot(rot_hr, i) * 10000.0) / 100.0);
+			datapoints_sr.push(Math.floor(calcrot(rot_sr, i) * 10000.0) / 100.0);
+		}
+
+		var datasets = null;
+
+		if (rot_user != 0) {
+			var datapoints_user = [];
+			for (var i = 0; i <= 100; i += 10) {
+				datapoints_user.push(Math.floor(calcrot(rot_user, i) * 10000.0) / 100.0);
+			}
+			datasets = [{
+				label: 'SRピックアップ無' + (Math.floor(rot_sr * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_sr,
+				borderColor: 'rgb(255, 99, 132)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}, {
+				label: 'HRピックアップ無' + (Math.floor(rot_hr * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_hr,
+				borderColor: 'rgb(255, 159, 64)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}, {
+				label: 'Rピックアップ無' + (Math.floor(rot_r * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_r,
+				borderColor: 'rgb(54, 162, 235)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}, {
+				label: '指定確率' + (Math.floor(rot_user * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_user,
+				borderColor: 'rgb(75, 192, 192)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}];
+		} else {
+			datasets = [{
+				label: 'SRピックアップ無' + (Math.floor(rot_sr * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_sr,
+				borderColor: 'rgb(255, 99, 132)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}, {
+				label: 'HRピックアップ無' + (Math.floor(rot_hr * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_hr,
+				borderColor: 'rgb(255, 159, 64)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}, {
+				label: 'Rピックアップ無' + (Math.floor(rot_r * 10000.0) / 100.0).toString() + '％',
+				data: datapoints_r,
+				borderColor: 'rgb(54, 162, 235)',
+				backgroundColor: 'rgba(0, 0, 0, 0)',
+				fill: false,
+			}];
+		}
+
+		window.RotChart = new Chart(canvas, {
+			type: 'line',
+			data: {
+				labels: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'],
+				datasets: datasets,
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: '何回引けばお迎えできるか問題'
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: '回数（回）'
+						}
+					}],
+					yAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'お迎え確率（％）'
+						},
+						ticks: {
+							suggestedMin: 0,
+							suggestedMax: 100,
+						}
+					}]
+				}
+			}
+		});
+		window.RotChart.update();
+	}
+
 	var renderOverview = function(data) {
 		if (data == null) {
 			return;
@@ -750,6 +877,25 @@ $(document).ready(function() {
 		cardheader.append(h3);
 		cardbody.append(table);
 		cardbody.append('<p class="small text-muted">確率はピックアップ無しのプレミアムガチャ換算。確定枠を除くため110連換算はしません</p>');
+		collapse.append(cardbody);
+		card.append(cardheader);
+		card.append(collapse);
+		accordion.append(card);
+
+		card = $('<div class="card"></div>');
+		cardheader = $('<div class="card-header" id="heading_analyze" role="tab"></div>');
+		collapse = $('<div class="collapse" id="collapse_analyze" aria-labelledby="heading_analyze" data-parent="#overview_accordion"></div>');
+		cardbody = $('<div class="card-body"></div>');
+		textbody = $('<a class="text-body d-block" href="#collapse_analyze" role="button" data-toggle="collapse" aria-controls="collapse_analyze"></a>');
+		textbody.text("分析");
+
+		h3 = $("<h3>");
+		h3.append(textbody);
+		table = buildAnalyzeContainer(data);
+		cardheader.append(h3);
+		cardbody.append('<h4>お迎え確率</h4>');
+		cardbody.append(table);
+		cardbody.append('<p class="small text-muted">ピックアップ無しの確率はプレミアムガチャの確率です</p>');
 		collapse.append(cardbody);
 		card.append(cardheader);
 		card.append(collapse);
@@ -998,4 +1144,12 @@ $(document).ready(function() {
 		update();
 	})
 
+	$(document).on('shown.bs.collapse', '#collapse_analyze', function() {
+		drawRotChart();
+	})
+
+	$(document).on('click', '#user_rot_button', function() {
+		rot_user = parseFloat($('#user_rot_number').val() * 0.01);
+		drawRotChart();
+	})
 })
