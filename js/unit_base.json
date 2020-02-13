@@ -1517,5 +1517,37 @@
 		"name": "ルーラー",
 		"nickname": "",
 		"rarity": "R"
+	},
+	{
+		"attribute": "精神",
+		"id": 48001,
+		"limited": "イベント配布",
+		"name": "ミナサキ",
+		"nickname": "【イタズラチョコ娘】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "科学",
+		"id": 48002,
+		"limited": "イベント抽選",
+		"name": "甲河　アスカ",
+		"nickname": "【バレンタイン】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "精神",
+		"id": 48003,
+		"limited": "イベント抽選",
+		"name": "ミリアム",
+		"nickname": "【ＶＤラッピング】",
+		"rarity": "HR"
+	},
+	{
+		"attribute": "超人",
+		"id": 48004,
+		"limited": "イベント抽選",
+		"name": "メルシー",
+		"nickname": "【ホットチョコ】",
+		"rarity": "R"
 	}
 ]
