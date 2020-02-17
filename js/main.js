@@ -391,14 +391,15 @@ $(document).ready(function() {
 							if (data[i]['limited'] == 'イベント配布') {
 								evoitems.mystery += 3;
 							}
+							evoitems.origin += 4;
 						} else if (data[i]['evo'] == 1) {
 							evoitemat.drop += 10;
 							evoitemat.gem += 15;
 							if (data[i]['limited'] == 'イベント配布') {
 								evoitems.mystery += 2;
 							}
+							evoitems.origin += 4;
 						}
-						evoitems.origin += 4;
 						break;
 				}
 			}
