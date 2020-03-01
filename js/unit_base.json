@@ -1549,5 +1549,37 @@
 		"name": "メルシー",
 		"nickname": "【ホットチョコ】",
 		"rarity": "R"
+	},
+	{
+		"attribute": "超人",
+		"id": 49001,
+		"limited": "イベント配布",
+		"name": "望月　卯奈",
+		"nickname": "",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "精神",
+		"id": 49002,
+		"limited": "",
+		"name": "ユーリ",
+		"nickname": "",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "自然",
+		"id": 49003,
+		"limited": "",
+		"name": "熱川　るみ",
+		"nickname": "",
+		"rarity": "HR"
+	},
+	{
+		"attribute": "魔性",
+		"id": 49004,
+		"limited": "",
+		"name": "カテジナ",
+		"nickname": "【呪われし美女】",
+		"rarity": "R"
 	}
 ]
