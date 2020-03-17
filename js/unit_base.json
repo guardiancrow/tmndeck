@@ -1585,7 +1585,7 @@
 	{
 		"attribute": "科学",
 		"id": 50001,
-		"limited": "",
+		"limited": "イベント配布",
 		"name": "すーぱーそに子",
 		"nickname": "",
 		"rarity": "SR"
@@ -1593,7 +1593,7 @@
 	{
 		"attribute": "自然",
 		"id": 50002,
-		"limited": "",
+		"limited": "イベント抽選",
 		"name": "井河　さくら",
 		"nickname": "【超音速ベーシスト】",
 		"rarity": "SR"
@@ -1601,7 +1601,7 @@
 	{
 		"attribute": "魔性",
 		"id": 50003,
-		"limited": "",
+		"limited": "イベント抽選",
 		"name": "リーナ",
 		"nickname": "【a．k．a．嵐騎】",
 		"rarity": "HR"
@@ -1609,7 +1609,7 @@
 	{
 		"attribute": "科学",
 		"id": 50004,
-		"limited": "",
+		"limited": "イベント抽選",
 		"name": "ソニア",
 		"nickname": "【イメージガールな殺人鬼】",
 		"rarity": "R"
