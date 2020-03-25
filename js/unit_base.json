@@ -1613,5 +1613,21 @@
 		"name": "ソニア",
 		"nickname": "【イメージガールな殺人鬼】",
 		"rarity": "R"
+	},
+	{
+		"attribute": "自然",
+		"id": 51001,
+		"limited": "五車祭",
+		"name": "七瀬　舞",
+		"nickname": "",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "超人",
+		"id": 51002,
+		"limited": "五車祭",
+		"name": "井河　アサギ",
+		"nickname": "【フル装備】",
+		"rarity": "SR"
 	}
 ]
