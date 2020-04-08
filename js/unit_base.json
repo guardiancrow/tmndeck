@@ -1629,5 +1629,37 @@
 		"name": "井河　アサギ",
 		"nickname": "【フル装備】",
 		"rarity": "SR"
+	},
+	{
+		"attribute": "魔性",
+		"id": 53001,
+		"limited": "イベント配布",
+		"name": "心願寺　紅",
+		"nickname": "【春の旋風】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "超人",
+		"id": 53002,
+		"limited": "イベント抽選",
+		"name": "秋山　凜子",
+		"nickname": "【制服の斬鬼】",
+		"rarity": "SR"
+	},
+	{
+		"attribute": "科学",
+		"id": 53003,
+		"limited": "イベント抽選",
+		"name": "セドナ・アルストナ",
+		"nickname": "【学園デビュー】",
+		"rarity": "HR"
+	},
+	{
+		"attribute": "自然",
+		"id": 53004,
+		"limited": "イベント抽選",
+		"name": "篠原　まり",
+		"nickname": "【制服委員長】",
+		"rarity": "R"
 	}
 ]
