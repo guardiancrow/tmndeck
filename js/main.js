@@ -12,6 +12,7 @@ $(document).ready(function() {
 		"イベント抽選",
 		"五車祭",
 		"特典",
+		"決戦ユニット",
 		"恒常"
 	];
 
@@ -55,7 +56,8 @@ $(document).ready(function() {
 		if (parsonaldata == null) {
 			for (i = 0; i < unitdata.length; i++) {
 				result.push({
-					id: unitdata[i]['id'],
+					id: unitdata[i]['chara_id'],
+					unit_id: unitdata[i]['unit_id'],
 					name: unitdata[i]['name'],
 					attribute: unitdata[i]['attribute'],
 					rarity: unitdata[i]['rarity'],
@@ -76,7 +78,8 @@ $(document).ready(function() {
 			for (j = 0; j < parsonaldata.length; j++) {
 				if (unitdata[i]['name'] == parsonaldata[j]['name']) {
 					result.push({
-						id: unitdata[i]['id'],
+						id: unitdata[i]['chara_id'],
+						unit_id: unitdata[i]['unit_id'],
 						name: unitdata[i]['name'],
 						attribute: unitdata[i]['attribute'],
 						rarity: unitdata[i]['rarity'],
@@ -91,7 +94,8 @@ $(document).ready(function() {
 			}
 			if (!b) {
 				result.push({
-					id: unitdata[i]['id'],
+					id: unitdata[i]['id_chara'],
+					unit_id: unitdata[i]['unit_id'],
 					name: unitdata[i]['name'],
 					attribute: unitdata[i]['attribute'],
 					rarity: unitdata[i]['rarity'],
@@ -126,7 +130,8 @@ $(document).ready(function() {
 			var status = '';
 			var evo = '';
 			var trust = '';
-			var id = row.eq(i).attr('unitid');
+			var unit_id = row.eq(i).attr('unitid');
+			var id = row.eq(i).attr('charaid');
 			for (var j = 0; j < cells.length; j++) {
 				if (cells.eq(j).find(".unitname").text()) {
 					unitname = cells.eq(j).find(".unitname").text();
@@ -141,6 +146,7 @@ $(document).ready(function() {
 			}
 			data.push({
 				id: id,
+				unit_id: unit_id,
 				name: unitname,
 				status: status,
 				evo: evo,
@@ -264,30 +270,37 @@ $(document).ready(function() {
 			this.superman = {
 				piece: 0,
 				drop: 0,
-				gem: 0
+				gem: 0,
+				pyroxene: 0
 			};
 			this.magic = {
 				piece: 0,
 				drop: 0,
-				gem: 0
+				gem: 0,
+				pyroxene: 0
 			};
 			this.spirit = {
 				piece: 0,
 				drop: 0,
-				gem: 0
+				gem: 0,
+				pyroxene: 0
 			};
 			this.nature = {
 				piece: 0,
 				drop: 0,
-				gem: 0
+				gem: 0,
+				pyroxene: 0
 			};
 			this.science = {
 				piece: 0,
 				drop: 0,
-				gem: 0
+				gem: 0,
+				pyroxene: 0
 			};
 			this.origin = 0;
 			this.mystery = 0;
+			this.pirce_hero = 0;
+			this.decisive_item = 0;
 		}
 
 		add(a) {
@@ -295,20 +308,27 @@ $(document).ready(function() {
 				this.superman.piece += a.superman.piece;
 				this.superman.drop += a.superman.drop;
 				this.superman.gem += a.superman.gem;
+				this.superman.pyroxene += a.superman.pyroxene;
 				this.magic.piece += a.magic.piece;
 				this.magic.drop += a.magic.drop;
 				this.magic.gem += a.magic.gem;
+				this.magic.pyroxene += a.magic.pyroxene;
 				this.spirit.piece += a.spirit.piece;
 				this.spirit.drop += a.spirit.drop;
 				this.spirit.gem += a.spirit.gem;
+				this.spirit.pyroxene += a.spirit.pyroxene;
 				this.nature.piece += a.nature.piece;
 				this.nature.drop += a.nature.drop;
 				this.nature.gem += a.nature.gem;
+				this.nature.pyroxene += a.nature.pyroxene;
 				this.science.piece += a.science.piece;
 				this.science.drop += a.science.drop;
 				this.science.gem += a.science.gem;
+				this.science.pyroxene += a.science.pyroxene;
 				this.origin += a.origin;
 				this.mystery += a.mystery;
+				this.pirce_hero += a.pirce_hero;
+				this.decisive_item += a.decisive_item;
 			}
 		}
 
@@ -317,20 +337,27 @@ $(document).ready(function() {
 				this.superman.piece -= a.superman.piece;
 				this.superman.drop -= a.superman.drop;
 				this.superman.gem -= a.superman.gem;
+				this.superman.pyroxene -= a.superman.pyroxene;
 				this.magic.piece -= a.magic.piece;
 				this.magic.drop -= a.magic.drop;
 				this.magic.gem -= a.magic.gem;
+				this.magic.pyroxene -= a.magic.pyroxene;
 				this.spirit.piece -= a.spirit.piece;
 				this.spirit.drop -= a.spirit.drop;
 				this.spirit.gem -= a.spirit.gem;
+				this.spirit.pyroxene -= a.spirit.pyroxene;
 				this.nature.piece -= a.nature.piece;
 				this.nature.drop -= a.nature.drop;
 				this.nature.gem -= a.nature.gem;
+				this.nature.pyroxene -= a.nature.pyroxene;
 				this.science.piece -= a.science.piece;
 				this.science.drop -= a.science.drop;
 				this.science.gem -= a.science.gem;
+				this.science.pyroxene -= a.science.pyroxene;
 				this.origin -= a.origin;
 				this.mystery -= a.mystery;
+				this.pirce_hero -= a.pirce_hero;
+				this.decisive_item -= a.decisive_item;
 			}
 		}
 	};
@@ -384,6 +411,22 @@ $(document).ready(function() {
 						}
 						break;
 					case 'SR':
+						if (data[i]['limited'] == '決戦ユニット') {
+							if (data[i]['evo'] == 0) {
+								evoitemat.piece += 50;
+								evoitemat.drop += 25;
+								evoitemat.gem += 25;
+								evoitemat.pyroxene += 40;
+								evoitems.pirce_hero += 80;
+							} else if (data[i]['evo'] == 1) {
+								evoitemat.pyroxene += 30;
+								evoitems.pirce_hero += 50;
+							}
+							evoitems.mystery += 5;
+							evoitems.origin += 10;
+							evoitems.decisive_item += 10;
+							break;
+						}
 						if (data[i]['evo'] == 0) {
 							evoitemat.piece += 5;
 							evoitemat.drop += 25;
@@ -1037,7 +1080,7 @@ $(document).ready(function() {
 
 		var i;
 		for (i = 0; i < data.length; i++) {
-			var row = $('<tr unitid="' + data[i]['id'] + '" class="' + data[i]['limited'] + '"></tr>');
+			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + '"></tr>');
 			row.append('<td><span class="unitname">' + data[i]['name'] + "</span></td>");
 			row.append('<td class="' + data[i]['attribute'] + '">' + data[i]['attribute'] + "</td>");
 			row.append("<td>" + data[i]['rarity'] + "</td>");

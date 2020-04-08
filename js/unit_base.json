@@ -1,1665 +1,1882 @@
 [{
 		"attribute": "超人",
-		"id": 1,
+		"chara_id": 1,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 1
 	},
 	{
 		"attribute": "超人",
-		"id": 2,
+		"chara_id": 2,
 		"limited": "",
 		"name": "槇島　あやめ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 2
 	},
 	{
 		"attribute": "超人",
-		"id": 3,
+		"chara_id": 3,
 		"limited": "",
 		"name": "クラクル",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 3
 	},
 	{
 		"attribute": "魔性",
-		"id": 4,
+		"chara_id": 4,
 		"limited": "",
 		"name": "朧",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 4
 	},
 	{
 		"attribute": "魔性",
-		"id": 5,
+		"chara_id": 5,
 		"limited": "",
 		"name": "水城　不知火",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 5
 	},
 	{
 		"attribute": "魔性",
-		"id": 6,
+		"chara_id": 6,
 		"limited": "",
 		"name": "心願寺　紅",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 6
 	},
 	{
 		"attribute": "精神",
-		"id": 7,
+		"chara_id": 7,
 		"limited": "",
 		"name": "リリム",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 7
 	},
 	{
 		"attribute": "精神",
-		"id": 8,
+		"chara_id": 8,
 		"limited": "",
 		"name": "ナーサラ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 8
 	},
 	{
 		"attribute": "精神",
-		"id": 9,
+		"chara_id": 9,
 		"limited": "",
 		"name": "ふうま　天音",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 9
 	},
 	{
 		"attribute": "自然",
-		"id": 10,
+		"chara_id": 10,
 		"limited": "",
 		"name": "イングリッド",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 10
 	},
 	{
 		"attribute": "自然",
-		"id": 11,
+		"chara_id": 11,
 		"limited": "",
 		"name": "紫藤　凜花",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 11
 	},
 	{
 		"attribute": "自然",
-		"id": 12,
+		"chara_id": 12,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 12
 	},
 	{
 		"attribute": "科学",
-		"id": 13,
+		"chara_id": 13,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 13
 	},
 	{
 		"attribute": "科学",
-		"id": 14,
+		"chara_id": 14,
 		"limited": "",
 		"name": "沙耶ＮＥＯ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 14
 	},
 	{
 		"attribute": "科学",
-		"id": 15,
+		"chara_id": 15,
 		"limited": "",
 		"name": "アルカ・スティエル",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 15
 	},
 	{
 		"attribute": "超人",
-		"id": 16,
+		"chara_id": 16,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 16
 	},
 	{
 		"attribute": "超人",
-		"id": 17,
+		"chara_id": 17,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 17
 	},
 	{
 		"attribute": "超人",
-		"id": 18,
+		"chara_id": 18,
 		"limited": "",
 		"name": "クルミ・Ｓ・坂崎",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 18
 	},
 	{
 		"attribute": "超人",
-		"id": 19,
+		"chara_id": 19,
 		"limited": "",
 		"name": "セラステス",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 19
 	},
 	{
 		"attribute": "魔性",
-		"id": 20,
+		"chara_id": 20,
 		"limited": "",
 		"name": "リリス・アーベル・ビンダーナーゲル",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 20
 	},
 	{
 		"attribute": "魔性",
-		"id": 21,
+		"chara_id": 21,
 		"limited": "",
 		"name": "リーナ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 21
 	},
 	{
 		"attribute": "魔性",
-		"id": 22,
+		"chara_id": 22,
 		"limited": "",
 		"name": "さくら",
 		"nickname": "【影の支配者】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 22
 	},
 	{
 		"attribute": "精神",
-		"id": 23,
+		"chara_id": 23,
 		"limited": "",
 		"name": "ミナサキ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 23
 	},
 	{
 		"attribute": "精神",
-		"id": 24,
+		"chara_id": 24,
 		"limited": "",
 		"name": "ミシェア・シルキース",
 		"nickname": "【ツヴァイ】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 24
 	},
 	{
 		"attribute": "精神",
-		"id": 25,
+		"chara_id": 25,
 		"limited": "",
 		"name": "ドロレス",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 25
 	},
 	{
 		"attribute": "自然",
-		"id": 26,
+		"chara_id": 26,
 		"limited": "",
 		"name": "高坂　静流",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 26
 	},
 	{
 		"attribute": "自然",
-		"id": 27,
+		"chara_id": 27,
 		"limited": "",
 		"name": "井河　さくら",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 27
 	},
 	{
 		"attribute": "自然",
-		"id": 28,
+		"chara_id": 28,
 		"limited": "",
 		"name": "ナディア",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 28
 	},
 	{
 		"attribute": "科学",
-		"id": 29,
+		"chara_id": 29,
 		"limited": "",
 		"name": "アンジェ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 29
 	},
 	{
 		"attribute": "科学",
-		"id": 30,
+		"chara_id": 30,
 		"limited": "",
 		"name": "ミラベル・ベル",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 30
 	},
 	{
 		"attribute": "科学",
-		"id": 31,
+		"chara_id": 31,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【駆動武装】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 31
 	},
 	{
 		"attribute": "超人",
-		"id": 32,
+		"chara_id": 32,
 		"limited": "",
 		"name": "大島　雫",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 32
 	},
 	{
 		"attribute": "超人",
-		"id": 33,
+		"chara_id": 33,
 		"limited": "",
 		"name": "由利　翡翠",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 33
 	},
 	{
 		"attribute": "超人",
-		"id": 34,
+		"chara_id": 34,
 		"limited": "",
 		"name": "グラン",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 34
 	},
 	{
 		"attribute": "超人",
-		"id": 35,
+		"chara_id": 35,
 		"limited": "",
 		"name": "四條　如月",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 35
 	},
 	{
 		"attribute": "魔性",
-		"id": 36,
+		"chara_id": 36,
 		"limited": "",
 		"name": "フェリシア",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 36
 	},
 	{
 		"attribute": "魔性",
-		"id": 37,
+		"chara_id": 37,
 		"limited": "",
 		"name": "ウィスプ",
 		"nickname": "【死霊騎士】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 37
 	},
 	{
 		"attribute": "魔性",
-		"id": 38,
+		"chara_id": 38,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【堕落の雷撃】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 38
 	},
 	{
 		"attribute": "魔性",
-		"id": 39,
+		"chara_id": 39,
 		"limited": "",
 		"name": "ワイト",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 39
 	},
 	{
 		"attribute": "精神",
-		"id": 40,
+		"chara_id": 40,
 		"limited": "",
 		"name": "シュヴァリエ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 40
 	},
 	{
 		"attribute": "精神",
-		"id": 41,
+		"chara_id": 41,
 		"limited": "",
 		"name": "ふうま　災禍",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 41
 	},
 	{
 		"attribute": "精神",
-		"id": 42,
+		"chara_id": 42,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【パーティ】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 42
 	},
 	{
 		"attribute": "精神",
-		"id": 43,
+		"chara_id": 43,
 		"limited": "",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【二丁拳銃の花嫁】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 43
 	},
 	{
 		"attribute": "自然",
-		"id": 44,
+		"chara_id": 44,
 		"limited": "",
 		"name": "上原　燐",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 44
 	},
 	{
 		"attribute": "自然",
-		"id": 45,
+		"chara_id": 45,
 		"limited": "",
 		"name": "イングリッド",
 		"nickname": "【晴着美女】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 45
 	},
 	{
 		"attribute": "自然",
-		"id": 46,
+		"chara_id": 46,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃のバレンタイン】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 46
 	},
 	{
 		"attribute": "自然",
-		"id": 47,
+		"chara_id": 47,
 		"limited": "",
 		"name": "篠原　まり",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 47
 	},
 	{
 		"attribute": "科学",
-		"id": 48,
+		"chara_id": 48,
 		"limited": "",
 		"name": "雪那・グレイス",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 48
 	},
 	{
 		"attribute": "科学",
-		"id": 49,
+		"chara_id": 49,
 		"limited": "",
 		"name": "セドナ・アルストナ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 49
 	},
 	{
 		"attribute": "科学",
-		"id": 50,
+		"chara_id": 50,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【空装武神】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 50
 	},
 	{
 		"attribute": "科学",
-		"id": 51,
+		"chara_id": 51,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【支援型兵装】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 51
 	},
 	{
 		"attribute": "超人",
-		"id": 3001,
+		"chara_id": 3001,
 		"limited": "イベント配布",
 		"name": "井河　アサギ",
 		"nickname": "【最強の対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 52
 	},
 	{
 		"attribute": "魔性",
-		"id": 5003,
+		"chara_id": 5003,
 		"limited": "",
 		"name": "スネークレディ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 53
 	},
 	{
 		"attribute": "超人",
-		"id": 6003,
+		"chara_id": 6003,
 		"limited": "",
 		"name": "カノン",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 54
 	},
 	{
 		"attribute": "魔性",
-		"id": 1001,
+		"chara_id": 1001,
 		"limited": "",
 		"name": "ブリジット",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 55
 	},
 	{
 		"attribute": "自然",
-		"id": 4001,
+		"chara_id": 4001,
 		"limited": "",
 		"name": "眞田　焔",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 56
 	},
 	{
 		"attribute": "科学",
-		"id": 6001,
+		"chara_id": 6001,
 		"limited": "イベント配布",
 		"name": "NO.16ソニア",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 57
 	},
 	{
 		"attribute": "魔性",
-		"id": 9002,
+		"chara_id": 9002,
 		"limited": "",
 		"name": "志賀　あさつき",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 58
 	},
 	{
 		"attribute": "精神",
-		"id": 1002,
+		"chara_id": 1002,
 		"limited": "",
 		"name": "メロード・クロア",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 59
 	},
 	{
 		"attribute": "自然",
-		"id": 3003,
+		"chara_id": 3003,
 		"limited": "",
 		"name": "弓走　颯",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 60
 	},
 	{
 		"attribute": "魔性",
-		"id": 6004,
+		"chara_id": 6004,
 		"limited": "",
 		"name": "ドナ・バロウズ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 61
 	},
 	{
 		"attribute": "科学",
-		"id": 5004,
+		"chara_id": 5004,
 		"limited": "",
 		"name": "セシリア・チェロ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 62
 	},
 	{
 		"attribute": "科学",
-		"id": 9004,
+		"chara_id": 9004,
 		"limited": "",
 		"name": "ロッカ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 63
 	},
 	{
 		"attribute": "超人",
-		"id": 5005,
+		"chara_id": 5005,
 		"limited": "",
 		"name": "フォルシア",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 64
 	},
 	{
 		"attribute": "精神",
-		"id": 3002,
+		"chara_id": 3002,
 		"limited": "",
 		"name": "喜瀬　蛍",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 65
 	},
 	{
 		"attribute": "超人",
-		"id": 66,
+		"chara_id": 66,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【斬鬼の対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 66
 	},
 	{
 		"attribute": "魔性",
-		"id": 67,
+		"chara_id": 67,
 		"limited": "イベント配布",
 		"name": "水城　不知火",
 		"nickname": "【妖艶舞踏】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 67
 	},
 	{
 		"attribute": "自然",
-		"id": 68,
+		"chara_id": 68,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃の対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 68
 	},
 	{
 		"attribute": "科学",
-		"id": 1003,
+		"chara_id": 1003,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【鋼鉄の対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 69
 	},
 	{
 		"attribute": "自然",
-		"id": 5002,
+		"chara_id": 5002,
 		"limited": "イベント配布",
 		"name": "井河　さくら",
 		"nickname": "【若き対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 70
 	},
 	{
 		"attribute": "精神",
-		"id": 6002,
+		"chara_id": 6002,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【空蝉の仮面】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 71
 	},
 	{
 		"attribute": "自然",
-		"id": 9001,
+		"chara_id": 9001,
 		"limited": "イベント配布",
 		"name": "神村　舞華",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 72
 	},
 	{
 		"attribute": "精神",
-		"id": 4002,
+		"chara_id": 4002,
 		"limited": "",
 		"name": "ラスタ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 73
 	},
 	{
 		"attribute": "精神",
-		"id": 9003,
+		"chara_id": 9003,
 		"limited": "",
 		"name": "天華",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 74
 	},
 	{
 		"attribute": "科学",
-		"id": 3004,
+		"chara_id": 3004,
 		"limited": "",
 		"name": "イーオ・オライオン",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 75
 	},
 	{
 		"attribute": "精神",
-		"id": 33001,
+		"chara_id": 33001,
 		"limited": "五車祭",
 		"name": "ふうま　時子",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 77
 	},
 	{
 		"attribute": "精神",
-		"id": 10104,
+		"chara_id": 10104,
 		"limited": "",
 		"name": "ミリアム",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 79
 	},
 	{
 		"attribute": "科学",
-		"id": 13003,
+		"chara_id": 13003,
 		"limited": "",
 		"name": "レティシア・ベルメール",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 80
 	},
 	{
 		"attribute": "超人",
-		"id": 81,
+		"chara_id": 81,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "【対魔忍アサギZERO】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 81
 	},
 	{
 		"attribute": "魔性",
-		"id": 7001,
+		"chara_id": 7001,
 		"limited": "イベント配布",
 		"name": "リリス",
 		"nickname": "【魔女だってクリスマス】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 146
 	},
 	{
 		"attribute": "超人",
-		"id": 7002,
+		"chara_id": 7002,
 		"limited": "イベント抽選",
 		"name": "秋山　凜子",
 		"nickname": "【クリスマス】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 147
 	},
 	{
 		"attribute": "科学",
-		"id": 7003,
+		"chara_id": 7003,
 		"limited": "イベント抽選",
 		"name": "アンジェ",
 		"nickname": "【聖夜のお楽しみ】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 148
 	},
 	{
 		"attribute": "自然",
-		"id": 7004,
+		"chara_id": 7004,
 		"limited": "イベント抽選",
 		"name": "篠原　まり",
 		"nickname": "【クリスマス娘】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 149
 	},
 	{
 		"attribute": "超人",
-		"id": 8001,
+		"chara_id": 8001,
 		"limited": "イベント配布",
 		"name": "ＺＥＲＯアサギ",
 		"nickname": "【2019正月】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 150
 	},
 	{
 		"attribute": "科学",
-		"id": 8002,
+		"chara_id": 8002,
 		"limited": "イベント抽選",
 		"name": "甲河　アスカ",
 		"nickname": "【新年満喫】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 151
 	},
 	{
 		"attribute": "自然",
-		"id": 8003,
+		"chara_id": 8003,
 		"limited": "イベント抽選",
 		"name": "眞田　焔",
 		"nickname": "【稽古初め】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 152
 	},
 	{
 		"attribute": "魔性",
-		"id": 8004,
+		"chara_id": 8004,
 		"limited": "イベント抽選",
 		"name": "フェリシア",
 		"nickname": "【初空】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 153
 	},
 	{
 		"attribute": "精神",
-		"id": 10001,
+		"chara_id": 10001,
 		"limited": "イベント配布",
 		"name": "ふうま　災禍",
 		"nickname": "【抱擁バレンタイン】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 156
 	},
 	{
 		"attribute": "自然",
-		"id": 10002,
+		"chara_id": 10002,
 		"limited": "",
 		"name": "獅子神　自斎",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 157
 	},
 	{
 		"attribute": "魔性",
-		"id": 10003,
+		"chara_id": 10003,
 		"limited": "",
 		"name": "ユーリヤ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 158
 	},
 	{
 		"attribute": "超人",
-		"id": 10004,
+		"chara_id": 10004,
 		"limited": "",
 		"name": "ラークシャシャ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 159
 	},
 	{
 		"attribute": "科学",
-		"id": 10101,
+		"chara_id": 10101,
 		"limited": "イベント配布",
 		"name": "クリア・ローベル",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 160
 	},
 	{
 		"attribute": "自然",
-		"id": 10102,
+		"chara_id": 10102,
 		"limited": "",
 		"name": "高坂　静流",
 		"nickname": "【チョコ教師】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 161
 	},
 	{
 		"attribute": "超人",
-		"id": 10103,
+		"chara_id": 10103,
 		"limited": "",
 		"name": "人外のお諒",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 162
 	},
 	{
 		"attribute": "精神",
-		"id": 10201,
+		"chara_id": 10201,
 		"limited": "イベント配布",
 		"name": "シュヴァリエ",
 		"nickname": "【桃華の賢者】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 166
 	},
 	{
 		"attribute": "精神",
-		"id": 10202,
+		"chara_id": 10202,
 		"limited": "",
 		"name": "上月　佐那",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 167
 	},
 	{
 		"attribute": "自然",
-		"id": 10203,
+		"chara_id": 10203,
 		"limited": "",
 		"name": "葉隠　真千子",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 168
 	},
 	{
 		"attribute": "魔性",
-		"id": 10204,
+		"chara_id": 10204,
 		"limited": "",
 		"name": "アルベルタ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 169
 	},
 	{
 		"attribute": "魔性",
-		"id": 13001,
+		"chara_id": 13001,
 		"limited": "イベント配布",
 		"name": "リーナ",
 		"nickname": "【桜嵐舞闘】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 170
 	},
 	{
 		"attribute": "超人",
-		"id": 13002,
+		"chara_id": 13002,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【剛力無双】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 171
 	},
 	{
 		"attribute": "精神",
-		"id": 13004,
+		"chara_id": 13004,
 		"limited": "",
 		"name": "羽鳥　志津香",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 172
 	},
 	{
 		"attribute": "科学",
-		"id": 15001,
+		"chara_id": 15001,
 		"limited": "イベント配布",
 		"name": "沙耶ＮＥＯ",
 		"nickname": "【報復娘】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 174
 	},
 	{
 		"attribute": "魔性",
-		"id": 15002,
+		"chara_id": 15002,
 		"limited": "",
 		"name": "黄泉　秋津",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 175
 	},
 	{
 		"attribute": "超人",
-		"id": 15003,
+		"chara_id": 15003,
 		"limited": "",
 		"name": "フランシス",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 176
 	},
 	{
 		"attribute": "自然",
-		"id": 15004,
+		"chara_id": 15004,
 		"limited": "",
 		"name": "清水　神流",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 177
 	},
 	{
 		"attribute": "精神",
-		"id": 16001,
+		"chara_id": 16001,
 		"limited": "イベント配布",
 		"name": "ミーティア",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 180
 	},
 	{
 		"attribute": "自然",
-		"id": 16002,
+		"chara_id": 16002,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃の新学期】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 181
 	},
 	{
 		"attribute": "精神",
-		"id": 16003,
+		"chara_id": 16003,
 		"limited": "",
 		"name": "ミレイユ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 182
 	},
 	{
 		"attribute": "科学",
-		"id": 16004,
+		"chara_id": 16004,
 		"limited": "",
 		"name": "レーベ・サフリー",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 183
 	},
 	{
 		"attribute": "超人",
-		"id": 18001,
+		"chara_id": 18001,
 		"limited": "イベント配布",
 		"name": "セラステス",
 		"nickname": "【電磁砲装備】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 186
 	},
 	{
 		"attribute": "科学",
-		"id": 18002,
+		"chara_id": 18002,
 		"limited": "",
 		"name": "クローンアサギ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 187
 	},
 	{
 		"attribute": "魔性",
-		"id": 18003,
+		"chara_id": 18003,
 		"limited": "",
 		"name": "カテジナ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 188
 	},
 	{
 		"attribute": "超人",
-		"id": 18004,
+		"chara_id": 18004,
 		"limited": "",
 		"name": "メルシー",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 189
 	},
 	{
 		"attribute": "自然",
-		"id": 19001,
+		"chara_id": 19001,
 		"limited": "イベント配布",
 		"name": "篠原　まり",
 		"nickname": "【土遁対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 190
 	},
 	{
 		"attribute": "超人",
-		"id": 19002,
+		"chara_id": 19002,
 		"limited": "",
 		"name": "鬼崎　きらら",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 191
 	},
 	{
 		"attribute": "科学",
-		"id": 19003,
+		"chara_id": 19003,
 		"limited": "",
 		"name": "ウィムル",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 192
 	},
 	{
 		"attribute": "精神",
-		"id": 19004,
+		"chara_id": 19004,
 		"limited": "",
 		"name": "ユノー",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 193
 	},
 	{
 		"attribute": "科学",
-		"id": 21001,
+		"chara_id": 21001,
 		"limited": "イベント配布",
 		"name": "アンジェ",
 		"nickname": "【ジューンブライド】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 197
 	},
 	{
 		"attribute": "魔性",
-		"id": 21002,
+		"chara_id": 21002,
 		"limited": "イベント抽選",
 		"name": "水城　不知火",
 		"nickname": "【幻影の花嫁】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 198
 	},
 	{
 		"attribute": "精神",
-		"id": 21003,
+		"chara_id": 21003,
 		"limited": "イベント抽選",
 		"name": "ミナサキ",
 		"nickname": "【純白と黒翼】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 199
 	},
 	{
 		"attribute": "自然",
-		"id": 21004,
+		"chara_id": 21004,
 		"limited": "イベント抽選",
 		"name": "弓走　颯",
 		"nickname": "【射止める花嫁】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 200
 	},
 	{
 		"attribute": "超人",
-		"id": 22001,
+		"chara_id": 22001,
 		"limited": "イベント配布",
 		"name": "ツバキ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 201
 	},
 	{
 		"attribute": "精神",
-		"id": 22002,
+		"chara_id": 22002,
 		"limited": "",
 		"name": "リリム",
 		"nickname": "【お気楽夢魔】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 202
 	},
 	{
 		"attribute": "魔性",
-		"id": 22003,
+		"chara_id": 22003,
 		"limited": "",
 		"name": "ユーリヤ",
 		"nickname": "【ドジっ子メイド】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 203
 	},
 	{
 		"attribute": "科学",
-		"id": 22004,
+		"chara_id": 22004,
 		"limited": "",
 		"name": "セシリア・チェロ",
 		"nickname": "【初夏のチョコ】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 204
 	},
 	{
 		"attribute": "精神",
-		"id": 24001,
+		"chara_id": 24001,
 		"limited": "イベント配布",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【真夏の眼帯】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 209
 	},
 	{
 		"attribute": "自然",
-		"id": 24002,
+		"chara_id": 24002,
 		"limited": "イベント抽選",
 		"name": "イングリッド",
 		"nickname": "【ビーチの女帝】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 210
 	},
 	{
 		"attribute": "超人",
-		"id": 24003,
+		"chara_id": 24003,
 		"limited": "イベント抽選",
 		"name": "由利　翡翠",
 		"nickname": "【浜辺の翠玉】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 211
 	},
 	{
 		"attribute": "魔性",
-		"id": 24004,
+		"chara_id": 24004,
 		"limited": "イベント抽選",
 		"name": "ドナ・バロウズ",
 		"nickname": "【ビーチウォリアー】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 212
 	},
 	{
 		"attribute": "魔性",
-		"id": 25001,
+		"chara_id": 25001,
 		"limited": "イベント配布",
 		"name": "柳　六穂",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 213
 	},
 	{
 		"attribute": "科学",
-		"id": 25002,
+		"chara_id": 25002,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【鋼鉄の女学生】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 214
 	},
 	{
 		"attribute": "自然",
-		"id": 25003,
+		"chara_id": 25003,
 		"limited": "",
 		"name": "甲斐原　菜央",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 215
 	},
 	{
 		"attribute": "超人",
-		"id": 25004,
+		"chara_id": 25004,
 		"limited": "",
 		"name": "ウェスタ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 216
 	},
 	{
 		"attribute": "超人",
-		"id": 27001,
+		"chara_id": 27001,
 		"limited": "イベント配布",
 		"name": "槇島　あやめ",
 		"nickname": "【単独潜入】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 221
 	},
 	{
 		"attribute": "精神",
-		"id": 27002,
+		"chara_id": 27002,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【星月夜】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 222
 	},
 	{
 		"attribute": "魔性",
-		"id": 27003,
+		"chara_id": 27003,
 		"limited": "",
 		"name": "エレーナ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 223
 	},
 	{
 		"attribute": "科学",
-		"id": 27004,
+		"chara_id": 27004,
 		"limited": "",
 		"name": "霧原　純子",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 224
 	},
 	{
 		"attribute": "自然",
-		"id": 28001,
+		"chara_id": 28001,
 		"limited": "イベント配布",
 		"name": "星乃　深月",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 225
 	},
 	{
 		"attribute": "科学",
-		"id": 28002,
+		"chara_id": 28002,
 		"limited": "",
 		"name": "アンリード・ボニー",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 226
 	},
 	{
 		"attribute": "精神",
-		"id": 28003,
+		"chara_id": 28003,
 		"limited": "",
 		"name": "ナドラ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 227
 	},
 	{
 		"attribute": "自然",
-		"id": 28004,
+		"chara_id": 28004,
 		"limited": "",
 		"name": "磯咲　伊織",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 228
 	},
 	{
 		"attribute": "超人",
-		"id": 27005,
+		"chara_id": 27005,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "【C96】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 231
 	},
 	{
 		"attribute": "精神",
-		"id": 30001,
+		"chara_id": 30001,
 		"limited": "イベント配布",
 		"name": "鳳　朱華",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 232
 	},
 	{
 		"attribute": "魔性",
-		"id": 30002,
+		"chara_id": 30002,
 		"limited": "",
 		"name": "朧",
 		"nickname": "【嗤う邪悪】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 233
 	},
 	{
 		"attribute": "科学",
-		"id": 30003,
+		"chara_id": 30003,
 		"limited": "",
 		"name": "カリーナ・コクラン",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 234
 	},
 	{
 		"attribute": "超人",
-		"id": 30004,
+		"chara_id": 30004,
 		"limited": "",
 		"name": "仲森　奈々華",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 235
 	},
 	{
 		"attribute": "超人",
-		"id": 33002,
+		"chara_id": 33002,
 		"limited": "五車祭",
 		"name": "ユフィ＆ソフィ",
 		"nickname": "【双子の鬼娘】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 236
 	},
 	{
 		"attribute": "科学",
-		"id": 31001,
+		"chara_id": 31001,
 		"limited": "イベント配布",
 		"name": "エリカ・ブラックモア",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 237
 	},
 	{
 		"attribute": "超人",
-		"id": 31002,
+		"chara_id": 31002,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【高嶺の花】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 238
 	},
 	{
 		"attribute": "自然",
-		"id": 31003,
+		"chara_id": 31003,
 		"limited": "",
 		"name": "神村　舞華",
 		"nickname": "【爆炎のギャル】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 239
 	},
 	{
 		"attribute": "精神",
-		"id": 31004,
+		"chara_id": 31004,
 		"limited": "",
 		"name": "喜瀬　蛍",
 		"nickname": "【清秋澄天】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 240
 	},
 	{
 		"attribute": "魔性",
-		"id": 34001,
+		"chara_id": 34001,
 		"limited": "イベント配布",
 		"name": "アスタロト",
 		"nickname": "【獄炎の女王】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 245
 	},
 	{
 		"attribute": "自然",
-		"id": 34002,
+		"chara_id": 34002,
 		"limited": "",
 		"name": "井河　さくら",
 		"nickname": "【天真影傑】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 246
 	},
 	{
 		"attribute": "超人",
-		"id": 34003,
+		"chara_id": 34003,
 		"limited": "",
 		"name": "鷹司　みこと",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 247
 	},
 	{
 		"attribute": "魔性",
-		"id": 34004,
+		"chara_id": 34004,
 		"limited": "",
 		"name": "メリィ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 248
 	},
 	{
 		"attribute": "魔性",
-		"id": 35001,
+		"chara_id": 35001,
 		"limited": "イベント配布",
 		"name": "心願寺　紅",
 		"nickname": "【ハロウィンナイト】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 249
 	},
 	{
 		"attribute": "超人",
-		"id": 35002,
+		"chara_id": 35002,
 		"limited": "イベント抽選",
 		"name": "鬼崎　きらら",
 		"nickname": "【ハロウィンヴァンパイア】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 250
 	},
 	{
 		"attribute": "科学",
-		"id": 35003,
+		"chara_id": 35003,
 		"limited": "イベント抽選",
 		"name": "ジェネラルハロウィン・ルネ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 251
 	},
 	{
 		"attribute": "自然",
-		"id": 35004,
+		"chara_id": 35004,
 		"limited": "イベント抽選",
 		"name": "ナディア",
 		"nickname": "【ハロウィン舞姫】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 252
 	},
 	{
 		"attribute": "精神",
-		"id": 37001,
+		"chara_id": 37001,
 		"limited": "イベント配布",
 		"name": "ふうま　亜希",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 257
 	},
 	{
 		"attribute": "魔性",
-		"id": 37002,
+		"chara_id": 37002,
 		"limited": "",
 		"name": "カウーラ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 258
 	},
 	{
 		"attribute": "超人",
-		"id": 37003,
+		"chara_id": 37003,
 		"limited": "",
 		"name": "クレハ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 259
 	},
 	{
 		"attribute": "科学",
-		"id": 37004,
+		"chara_id": 37004,
 		"limited": "",
 		"name": "ティナ・ウォーレル",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 260
 	},
 	{
 		"attribute": "超人",
-		"id": 39001,
+		"chara_id": 39001,
 		"limited": "五車祭",
 		"name": "相州　蛇子",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 261
 	},
 	{
 		"attribute": "魔性",
-		"id": 39002,
+		"chara_id": 39002,
 		"limited": "五車祭",
 		"name": "上原　鹿之助",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 262
 	},
 	{
 		"attribute": "科学",
-		"id": 38001,
+		"chara_id": 38001,
 		"limited": "イベント配布",
 		"name": "Ａ－６６・ルーナ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 263
 	},
 	{
 		"attribute": "科学",
-		"id": 38002,
+		"chara_id": 38002,
 		"limited": "",
 		"name": "穂稀　なお",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 264
 	},
 	{
 		"attribute": "精神",
-		"id": 38003,
+		"chara_id": 38003,
 		"limited": "",
 		"name": "シアリー",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 265
 	},
 	{
 		"attribute": "超人",
-		"id": 38004,
+		"chara_id": 38004,
 		"limited": "",
 		"name": "蓮魔　零子",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 266
 	},
 	{
 		"attribute": "超人",
-		"id": 41001,
+		"chara_id": 41001,
 		"limited": "イベント配布",
 		"name": "黒田　巴",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 269
 	},
 	{
 		"attribute": "精神",
-		"id": 41002,
+		"chara_id": 41002,
 		"limited": "",
 		"name": "ふうま　災禍",
 		"nickname": "【デート日和】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 270
 	},
 	{
 		"attribute": "自然",
-		"id": 41003,
+		"chara_id": 41003,
 		"limited": "",
 		"name": "磯咲　伊紀",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 271
 	},
 	{
 		"attribute": "魔性",
-		"id": 41004,
+		"chara_id": 41004,
 		"limited": "",
 		"name": "冬月　くるり",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 272
 	},
 	{
 		"attribute": "自然",
-		"id": 42001,
+		"chara_id": 42001,
 		"limited": "イベント配布",
 		"name": "高坂　静流",
 		"nickname": "【聖夜の花】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 275
 	},
 	{
 		"attribute": "自然",
-		"id": 42002,
+		"chara_id": 42002,
 		"limited": "イベント抽選",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃のクリスマス】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 276
 	},
 	{
 		"attribute": "魔性",
-		"id": 42003,
+		"chara_id": 42003,
 		"limited": "イベント抽選",
 		"name": "ユーリヤ",
 		"nickname": "【サンタメイド】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 277
 	},
 	{
 		"attribute": "精神",
-		"id": 42004,
+		"chara_id": 42004,
 		"limited": "イベント抽選",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【眼帯サンタ】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 278
 	},
 	{
 		"attribute": "科学",
-		"id": 43001,
+		"chara_id": 43001,
 		"limited": "特典",
 		"name": "NO.16ソニア",
 		"nickname": "【C97】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 279
 	},
 	{
 		"attribute": "魔性",
-		"id": 44001,
+		"chara_id": 44001,
 		"limited": "イベント配布",
 		"name": "リリス",
 		"nickname": "【初詣の魔女】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 280
 	},
 	{
 		"attribute": "超人",
-		"id": 44002,
+		"chara_id": 44002,
 		"limited": "イベント抽選",
 		"name": "井河　アサギ",
 		"nickname": "【対魔新年】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 281
 	},
 	{
 		"attribute": "科学",
-		"id": 44003,
+		"chara_id": 44003,
 		"limited": "イベント抽選",
 		"name": "レティシア",
 		"nickname": "【ニューイヤー】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 282
 	},
 	{
 		"attribute": "自然",
-		"id": 44004,
+		"chara_id": 44004,
 		"limited": "イベント抽選",
 		"name": "磯咲　伊織",
 		"nickname": "【新春恋色娘】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 283
 	},
 	{
 		"attribute": "精神",
-		"id": 45001,
+		"chara_id": 45001,
 		"limited": "イベント配布",
 		"name": "ふうま　天音",
 		"nickname": "【執事で対魔忍】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 284
 	},
 	{
 		"attribute": "魔性",
-		"id": 45002,
+		"chara_id": 45002,
 		"limited": "",
 		"name": "フェリシア",
 		"nickname": "【真祖の血脈】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 285
 	},
 	{
 		"attribute": "超人",
-		"id": 45003,
+		"chara_id": 45003,
 		"limited": "",
 		"name": "クラクル",
 		"nickname": "【奔放猫娘】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 286
 	},
 	{
 		"attribute": "科学",
-		"id": 45004,
+		"chara_id": 45004,
 		"limited": "",
 		"name": "メイ",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 287
 	},
 	{
 		"attribute": "自然",
-		"id": 47001,
+		"chara_id": 47001,
 		"limited": "イベント配布",
 		"name": "眞田　焔",
 		"nickname": "【槍炎の戦闘狂】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 289
 	},
 	{
 		"attribute": "超人",
-		"id": 47002,
+		"chara_id": 47002,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【淡き若紫】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 290
 	},
 	{
 		"attribute": "魔性",
-		"id": 47003,
+		"chara_id": 47003,
 		"limited": "",
 		"name": "玉藻",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 291
 	},
 	{
 		"attribute": "精神",
-		"id": 47004,
+		"chara_id": 47004,
 		"limited": "",
 		"name": "ルーラー",
 		"nickname": "",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 292
 	},
 	{
 		"attribute": "精神",
-		"id": 48001,
+		"chara_id": 48001,
 		"limited": "イベント配布",
 		"name": "ミナサキ",
 		"nickname": "【イタズラチョコ娘】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 294
 	},
 	{
 		"attribute": "科学",
-		"id": 48002,
+		"chara_id": 48002,
 		"limited": "イベント抽選",
 		"name": "甲河　アスカ",
 		"nickname": "【バレンタイン】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 295
 	},
 	{
 		"attribute": "精神",
-		"id": 48003,
+		"chara_id": 48003,
 		"limited": "イベント抽選",
 		"name": "ミリアム",
 		"nickname": "【ＶＤラッピング】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 296
 	},
 	{
 		"attribute": "超人",
-		"id": 48004,
+		"chara_id": 48004,
 		"limited": "イベント抽選",
 		"name": "メルシー",
 		"nickname": "【ホットチョコ】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 297
 	},
 	{
 		"attribute": "超人",
-		"id": 49001,
+		"chara_id": 49001,
 		"limited": "イベント配布",
 		"name": "望月　卯奈",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 299
 	},
 	{
 		"attribute": "精神",
-		"id": 49002,
+		"chara_id": 49002,
 		"limited": "",
 		"name": "ユーリ",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 300
 	},
 	{
 		"attribute": "自然",
-		"id": 49003,
+		"chara_id": 49003,
 		"limited": "",
 		"name": "熱川　るみ",
 		"nickname": "",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 301
 	},
 	{
 		"attribute": "魔性",
-		"id": 49004,
+		"chara_id": 49004,
 		"limited": "",
 		"name": "カテジナ",
 		"nickname": "【呪われし美女】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 302
 	},
 	{
 		"attribute": "科学",
-		"id": 50001,
+		"chara_id": 50001,
 		"limited": "イベント配布",
 		"name": "すーぱーそに子",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 303
 	},
 	{
 		"attribute": "自然",
-		"id": 50002,
+		"chara_id": 50002,
 		"limited": "イベント抽選",
 		"name": "井河　さくら",
 		"nickname": "【超音速ベーシスト】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 304
 	},
 	{
 		"attribute": "魔性",
-		"id": 50003,
+		"chara_id": 50003,
 		"limited": "イベント抽選",
 		"name": "リーナ",
 		"nickname": "【a．k．a．嵐騎】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 305
 	},
 	{
 		"attribute": "科学",
-		"id": 50004,
+		"chara_id": 50004,
 		"limited": "イベント抽選",
 		"name": "ソニア",
 		"nickname": "【イメージガールな殺人鬼】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 306
 	},
 	{
 		"attribute": "自然",
-		"id": 51001,
+		"chara_id": 51001,
 		"limited": "五車祭",
 		"name": "七瀬　舞",
 		"nickname": "",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 307
 	},
 	{
 		"attribute": "超人",
-		"id": 51002,
+		"chara_id": 51002,
 		"limited": "五車祭",
 		"name": "井河　アサギ",
 		"nickname": "【フル装備】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 308
 	},
 	{
 		"attribute": "魔性",
-		"id": 53001,
+		"chara_id": 53001,
 		"limited": "イベント配布",
 		"name": "心願寺　紅",
 		"nickname": "【春の旋風】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 314
 	},
 	{
 		"attribute": "超人",
-		"id": 53002,
+		"chara_id": 53002,
 		"limited": "イベント抽選",
 		"name": "秋山　凜子",
 		"nickname": "【制服の斬鬼】",
-		"rarity": "SR"
+		"rarity": "SR",
+		"unit_id": 315
 	},
 	{
 		"attribute": "科学",
-		"id": 53003,
+		"chara_id": 53003,
 		"limited": "イベント抽選",
 		"name": "セドナ・アルストナ",
 		"nickname": "【学園デビュー】",
-		"rarity": "HR"
+		"rarity": "HR",
+		"unit_id": 316
 	},
 	{
 		"attribute": "自然",
-		"id": 53004,
+		"chara_id": 53004,
 		"limited": "イベント抽選",
 		"name": "篠原　まり",
 		"nickname": "【制服委員長】",
-		"rarity": "R"
+		"rarity": "R",
+		"unit_id": 317
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 70001,
+		"limited": "決戦ユニット",
+		"name": "対魔忍ライブラリー",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7001
 	}
 ]
