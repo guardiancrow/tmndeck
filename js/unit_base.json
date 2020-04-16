@@ -1872,11 +1872,47 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 70001,
+		"chara_id": 54001,
 		"limited": "決戦ユニット",
 		"name": "対魔忍ライブラリー",
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7001
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 55001,
+		"limited": "イベント配布",
+		"name": "井河　さくら",
+		"nickname": "【春の新作】",
+		"rarity": "SR",
+		"unit_id": 318
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 55002,
+		"limited": "",
+		"name": "死々村　孤路",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 319
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 55003,
+		"limited": "",
+		"name": "陳　春桃",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 320
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 55004,
+		"limited": "",
+		"name": "ミスティ",
+		"nickname": "【人恋し夢魔】",
+		"rarity": "R",
+		"unit_id": 321
 	}
 ]
