@@ -555,7 +555,7 @@ $(document).ready(function() {
 		return table;
 	}
 
-	var buildUnitOverViewList = function(data) {
+	var buildUnitOverViewList = function(data, constant) {
 		var array_sum = function(ary) {
 			return ary.reduce(function(accu, current, i, ary) {
 				return accu + current;
@@ -616,6 +616,9 @@ $(document).ready(function() {
 		};
 
 		for (var i = 0; i < data.length; i++) {
+			if (constant && data[i]['limited'] != '') {
+				continue;
+			}
 			switch (data[i]['rarity']) {
 				case 'SR':
 					if (data[i]['status'] == 'max' || data[i]['status'] == 'grow' || data[i]['status'] == 'wait') {
@@ -865,12 +868,21 @@ $(document).ready(function() {
 		textbody = $('<a class="text-body d-block" href="#collapse_unitoverview" role="button" data-toggle="collapse" aria-controls="collapse_unitoverview"></a>');
 		textbody.text("ユニット");
 
-		table = buildUnitOverViewList(data);
+		table = buildUnitOverViewList(data, false);
 
 		h3 = $("<h3>");
 		h3.append(textbody);
 		cardheader.append(h3);
 		cardbody.append('<h4>所有概要</h4>');
+		cardbody.append(table);
+		cardbody.append('<p class="small text-muted">所有／実装済み</p>');
+
+		table = buildUnitOverViewList(data, true);
+
+		h3 = $("<h3>");
+		h3.append(textbody);
+		cardheader.append(h3);
+		cardbody.append('<h4>所有概要（恒常のみ）</h4>');
 		cardbody.append(table);
 		cardbody.append('<p class="small text-muted">所有／実装済み</p>');
 
