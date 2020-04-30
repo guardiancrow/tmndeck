@@ -1914,5 +1914,41 @@
 		"nickname": "【人恋し夢魔】",
 		"rarity": "R",
 		"unit_id": 321
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 57001,
+		"limited": "イベント配布",
+		"name": "仲森　奈々華",
+		"nickname": "【猪突猛進】",
+		"rarity": "SR",
+		"unit_id": 327
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 57002,
+		"limited": "",
+		"name": "アイナ",
+		"nickname": "【ゼロレンジシューター】",
+		"rarity": "SR",
+		"unit_id": 328
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 57003,
+		"limited": "",
+		"name": "相馬　成美",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 329
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 57004,
+		"limited": "",
+		"name": "ゼシカ・ファルファー",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 330
 	}
 ]

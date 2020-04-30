@@ -24,9 +24,9 @@ $(document).ready(function() {
 		"none"
 	];
 
-	const rot_sr = 0.0004;
-	const rot_hr = 0.0017;
-	const rot_r = 0.0172;
+	const rot_sr = 0.0007;
+	const rot_hr = 0.0023;
+	const rot_r = 0.0178;
 	var rot_user = 0;
 	var sort_option = 'id';
 
