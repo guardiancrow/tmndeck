@@ -28,6 +28,7 @@ $(document).ready(function() {
 	const rot_hr = 0.0023;
 	const rot_r = 0.0178;
 	var rot_user = 0;
+	var times_user = 100;
 	var sort_option = 'id';
 
 	var vaildData = function(data) {
@@ -722,7 +723,12 @@ $(document).ready(function() {
 		var formrowRot = $('<div class="form-row px-4"></div>');
 		var labelRot = $('<label for="user_rot_number">確率を追加できます（％）</label>');
 		var inputRot = $('<input type="number" name="user_rot_number" id="user_rot_number" class="form-control col" min="0" max="100" step="0.01" value="0.01">');
-		var buttonRot = $('<button class="btn btn-primary col" id="user_rot_button">追加</button>');
+		var buttonRot = $('<button class="btn btn-primary col" id="user_rot_button">確率を追加</button>');
+		var groupTimes = $('<div class="form-group"></div>');
+		var formrowTimes = $('<div class="form-row px-4"></div>');
+		var labelTimes = $('<label for="user_times_number">最大回数を指定できます（10回以下切り捨て、500回まで）</label>');
+		var inputTimes = $('<input type="number" name="user_times_number" id="user_times_number" class="form-control col" min="0" max="500" step="10" value="100">');
+		var buttonTimes = $('<button class="btn btn-primary col" id="user_times_button">最大回数を指定</button>');
 		var canvas = $('<canvas id="RotChart"></canvas>');
 		formrowRot.append(inputRot);
 		formrowRot.append(buttonRot);
@@ -730,6 +736,11 @@ $(document).ready(function() {
 		groupRot.append(formrowRot);
 		container.append(canvas);
 		container.append(groupRot);
+		formrowTimes.append(inputTimes);
+		formrowTimes.append(buttonTimes);
+		groupTimes.append(labelTimes);
+		groupTimes.append(formrowTimes);
+		container.append(groupTimes);
 
 		return container;
 	}
@@ -742,20 +753,32 @@ $(document).ready(function() {
 			return 1.0 - Math.pow((100.0 - rot_single * times) / 100.0, 100);
 		}
 
+		var maxtimes = times_user;
+
+		if (maxtimes < 0 ) {
+			maxtimes = 0;
+		} else if (maxtimes > 500) {
+			maxtimes = 500;
+		}
+
 		var datapoints_r = [];
 		var datapoints_hr = [];
 		var datapoints_sr = [];
-		for (var i = 0; i <= 100; i += 10) {
+		for (var i = 0; i <= maxtimes; i += 10) {
 			datapoints_r.push(Math.floor(calcrot(rot_r, i) * 10000.0) / 100.0);
 			datapoints_hr.push(Math.floor(calcrot(rot_hr, i) * 10000.0) / 100.0);
 			datapoints_sr.push(Math.floor(calcrot(rot_sr, i) * 10000.0) / 100.0);
 		}
 
 		var datasets = null;
+		var labels = [];
+		for (var i = 0; i <= maxtimes; i += 10) {
+			labels.push(i);
+		}
 
 		if (rot_user != 0) {
 			var datapoints_user = [];
-			for (var i = 0; i <= 100; i += 10) {
+			for (var i = 0; i <= maxtimes; i += 10) {
 				datapoints_user.push(Math.floor(calcrot(rot_user, i) * 10000.0) / 100.0);
 			}
 			datasets = [{
@@ -808,7 +831,8 @@ $(document).ready(function() {
 		window.RotChart = new Chart(canvas, {
 			type: 'line',
 			data: {
-				labels: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'],
+				//labels: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'],
+				labels: labels,
 				datasets: datasets,
 			},
 			options: {
@@ -1206,6 +1230,11 @@ $(document).ready(function() {
 
 	$(document).on('click', '#user_rot_button', function() {
 		rot_user = parseFloat($('#user_rot_number').val() * 0.01);
+		drawRotChart();
+	})
+
+	$(document).on('click', '#user_times_button', function() {
+		times_user = parseInt($('#user_times_number').val());
 		drawRotChart();
 	})
 })
