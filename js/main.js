@@ -372,7 +372,9 @@ $(document).ready(function() {
 
 		for (var i = 0; i < data.length; i++) {
 			if (constant && data[i]['limited'] != '') {
-				continue;
+				if (data[i]['status'] != 'grow' && data[i]['status'] != 'wait') {
+					continue;
+				}
 			}
 			switch (data[i]['attribute']) {
 				case "超人":
