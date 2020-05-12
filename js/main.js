@@ -363,7 +363,7 @@ $(document).ready(function() {
 		}
 	};
 
-	var calcEvoItem = function(data, status) {
+	var calcEvoItem = function(data, status, constant) {
 		if (data == null) {
 			return null;
 		}
@@ -371,6 +371,9 @@ $(document).ready(function() {
 		var evoitemat = null;
 
 		for (var i = 0; i < data.length; i++) {
+			if (constant && data[i]['limited'] != '') {
+				continue;
+			}
 			switch (data[i]['attribute']) {
 				case "超人":
 					evoitemat = evoitems.superman;
@@ -455,9 +458,38 @@ $(document).ready(function() {
 		if (data == null) {
 			return null;
 		}
-		var evoitem = calcEvoItem(data, 'grow');
-		var evoitem_wait = calcEvoItem(data, 'wait');
+		var evoitem = calcEvoItem(data, 'grow', false);
+		var evoitem_wait = calcEvoItem(data, 'wait', false);
 		evoitem.add(evoitem_wait);
+
+		var table = $('<table class="table table-bordered"></table>');
+		var thead = $('<thead><tr><th>-</th><th class="超人">超人</th><th class="魔性">魔性</th><th class="精神">精神</th><th class="自然">自然</th><th class="科学">科学</th><th>原初／神秘</th></tr></thead>');
+		var tbody = $('<tbody></tbody>');
+
+		var row = $("<tr></tr>");
+		row.append("<td>欠片</td>" + "<td>" + evoitem.superman.piece + "</td>" + "<td>" + evoitem.magic.piece + "</td>" + "<td>" + evoitem.spirit.piece + "</td>" + "<td>" + evoitem.nature.piece + "</td>" + "<td>" + evoitem.science.piece + "</td><td></td>");
+		tbody.append(row);
+		row = $("<tr></tr>");
+		row.append("<td>雫</td>" + "<td>" + evoitem.superman.drop + "</td>" + "<td>" + evoitem.magic.drop + "</td>" + "<td>" + evoitem.spirit.drop + "</td>" + "<td>" + evoitem.nature.drop + "</td>" + "<td>" + evoitem.science.drop + "</td><td></td>");
+		tbody.append(row);
+		row = $("<tr></tr>");
+		row.append("<td>宝珠</td>" + "<td>" + evoitem.superman['gem'] + "</td>" + "<td>" + evoitem.magic.gem + "</td>" + "<td>" + evoitem.spirit.gem + "</td>" + "<td>" + evoitem.nature.gem + "</td>" + "<td>" + evoitem.science.gem + "</td>" + "<td>" + evoitem.origin + "／" + evoitem.mystery + "</td>");
+		tbody.append(row);
+
+		table.append(thead);
+		table.append(tbody);
+
+		return table;
+	}
+
+	var buildEvoItemTableConstantAll = function(data) {
+		if (data == null) {
+			return null;
+		}
+		var evoitem = calcEvoItem(data, 'grow', true);
+		evoitem.add(calcEvoItem(data, 'wait', true));
+		evoitem.add(calcEvoItem(data, 'wish', true));
+		evoitem.add(calcEvoItem(data, 'none', true));
 
 		var table = $('<table class="table table-bordered"></table>');
 		var thead = $('<thead><tr><th>-</th><th class="超人">超人</th><th class="魔性">魔性</th><th class="精神">精神</th><th class="自然">自然</th><th class="科学">科学</th><th>原初／神秘</th></tr></thead>');
@@ -483,10 +515,10 @@ $(document).ready(function() {
 		if (data == null) {
 			return null;
 		}
-		var evoitem = calcEvoItem(data, 'grow');
-		evoitem.add(calcEvoItem(data, 'wait'));
-		evoitem.add(calcEvoItem(data, 'wish'));
-		evoitem.add(calcEvoItem(data, 'none'));
+		var evoitem = calcEvoItem(data, 'grow', false);
+		evoitem.add(calcEvoItem(data, 'wait', false));
+		evoitem.add(calcEvoItem(data, 'wish', false));
+		evoitem.add(calcEvoItem(data, 'none', false));
 
 		var table = $('<table class="table table-bordered"></table>');
 		var thead = $('<thead><tr><th>-</th><th class="超人">超人</th><th class="魔性">魔性</th><th class="精神">精神</th><th class="自然">自然</th><th class="科学">科学</th><th>原初／神秘</th></tr></thead>');
@@ -934,11 +966,16 @@ $(document).ready(function() {
 		cardbody.append('<h4>所有のみ</h4>');
 		cardbody.append(table);
 
+		table = buildEvoItemTableConstantAll(data);
+		cardheader.append(h3);
+		cardbody.append('<h4>所有と恒常の合計</h4>');
+		cardbody.append(table);
+
 		table = buildEvoItemTableAll(data);
 		cardheader.append(h3);
 		cardbody.append('<h4>実装済み全て</h4>');
 		cardbody.append(table);
-		cardbody.append('<p class="small text-muted">所有のみは「待機中」・「育成中」の合計値となります</p>');
+		cardbody.append('<p class="small text-muted">「所有のみ」は「待機中」と「育成中」の合計値となります<br>「所有と恒常の合計」は「所有のみ」と「未所有のプレミアムガチャのユニット」の合計値となります</p>');
 		collapse.append(cardbody);
 		card.append(cardheader);
 		card.append(collapse);
