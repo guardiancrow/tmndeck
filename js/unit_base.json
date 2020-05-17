@@ -1950,5 +1950,50 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 330
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 58001,
+		"limited": "イベント配布",
+		"name": "ミレイユ",
+		"nickname": "【夢の中で】",
+		"rarity": "SR",
+		"unit_id": 331
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 58002,
+		"limited": "",
+		"name": "ユフィ＆ソフィ",
+		"nickname": "【一日対魔忍】",
+		"rarity": "SR",
+		"unit_id": 332
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 58003,
+		"limited": "",
+		"name": "陽炎",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 333
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 58004,
+		"limited": "",
+		"name": "マーガレット・リドリー",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 334
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 59001,
+		"limited": "決戦ユニット",
+		"name": "オーガ奴隷",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7005
 	}
 ]
