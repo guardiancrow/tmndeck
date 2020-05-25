@@ -1995,5 +1995,23 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7005
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 60001,
+		"limited": "五車祭",
+		"name": "イングリッド",
+		"nickname": "【不滅の邪炎】",
+		"rarity": "SR",
+		"unit_id": 335
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 60002,
+		"limited": "五車祭",
+		"name": "天宮　紫水",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 336
 	}
 ]
