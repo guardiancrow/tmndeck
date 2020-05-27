@@ -30,6 +30,8 @@ $(document).ready(function() {
 	var rot_user = 0;
 	var times_user = 100;
 	var sort_option = 'id';
+	var hideUnowned = false;
+	var hideMaxed = false;
 
 	var vaildData = function(data) {
 		if (!data) {
@@ -1221,6 +1223,29 @@ $(document).ready(function() {
 		header.append(title);
 		header.append(sort_wrap);
 
+		unittable.append(header);
+
+		header = $('<div>');
+		header.attr('class', 'row m-2');
+		var swUnowned;
+		var swMaxed;
+		if (hideUnowned) {
+			swUnowned = $('<div class="custom-control custom-switch col-sm-6"><input type="checkbox" class="custom-control-input" id="hideUnownedSwitch" checked><label class="custom-control-label" for="hideUnownedSwitch">未所有のユニットを隠す</label></div>');
+		} else {
+			swUnowned = $('<div class="custom-control custom-switch col-sm-6"><input type="checkbox" class="custom-control-input" id="hideUnownedSwitch"><label class="custom-control-label" for="hideUnownedSwitch">未所有のユニットを隠す</label></div>');
+		}
+
+		header.append(swUnowned);
+
+		if (hideMaxed) {
+			swMaxed = $('<div class="custom-control custom-switch col-sm-6"><input type="checkbox" class="custom-control-input" id="hideMaxedSwitch" checked><label class="custom-control-label" for="hideMaxedSwitch">育成完了のユニットを隠す</label></div>');
+		} else {
+			swMaxed = $('<div class="custom-control custom-switch col-sm-6"><input type="checkbox" class="custom-control-input" id="hideMaxedSwitch"><label class="custom-control-label" for="hideMaxedSwitch">育成完了のユニットを隠す</label></div>');
+		}
+		header.append(swMaxed);
+
+		unittable.append(header);
+
 		var responsive = $('<div>');
 		responsive.attr('class', 'table-responsive table-responsive-md');
 
@@ -1230,6 +1255,12 @@ $(document).ready(function() {
 
 		var i;
 		for (i = 0; i < data.length; i++) {
+			if (hideUnowned && (data[i]['status'] == 'wish' || data[i]['status'] == 'none')) {
+				continue;
+			}
+			if (hideMaxed && data[i]['status'] == 'max') {
+				continue;
+			}
 			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' +  data[i]['limited'] + '"></tr>');
 			row.append('<td><span class="unitname">' + data[i]['name'] + "</span></td>");
 			row.append("<td>" + data[i]['rarity'] + "</td>");
@@ -1366,5 +1397,15 @@ $(document).ready(function() {
 	$(document).on('click', '#user_times_button', function() {
 		times_user = parseInt($('#user_times_number').val());
 		drawRotChart();
+	})
+
+	$(document).on('change', '#hideUnownedSwitch', function() {
+		hideUnowned = $('#hideUnownedSwitch').prop('checked');
+		update();
+	})
+
+	$(document).on('change', '#hideMaxedSwitch', function() {
+		hideMaxed = $('#hideMaxedSwitch').prop('checked');
+		update();
 	})
 })
