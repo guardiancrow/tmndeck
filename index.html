@@ -23,23 +23,23 @@ Released under the MIT license
 
 	<link rel="stylesheet" href="//unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
 	<style type="text/css">
-		.超人 {
+		th.超人, td.超人 {
 			background-color: rgb(255, 182, 193);
 		}
 
-		.魔性 {
+		th.魔性, td.魔性 {
 			background-color: rgb(173, 216, 230);
 		}
 
-		.精神 {
+		th.精神, td.精神 {
 			background-color: rgb(144, 238, 144);
 		}
 
-		.自然 {
+		th.自然, td.自然 {
 			background-color: rgb(255, 255, 224);
 		}
 
-		.科学 {
+		th.科学, td.科学 {
 			background-color: rgb(221, 160, 221);
 		}
 
@@ -63,6 +63,30 @@ Released under the MIT license
 			background-color: rgb(89, 133, 204);
 		}
 
+		#unittable tr.超人 > td:first-child,
+		#infotable tr.超人 > td:first-child {
+			background-color: rgb(255, 182, 193);
+		}
+		#unittable tr.魔性 > td:first-child,
+		#infotable tr.魔性 > td:first-child {
+			background-color: rgb(173, 216, 230);
+		}
+		#unittable tr.精神 > td:first-child,
+		#infotable tr.精神 > td:first-child {
+			background-color: rgb(144, 238, 144);
+		}
+		#unittable tr.自然 > td:first-child,
+		#infotable tr.自然 > td:first-child {
+			background-color: rgb(255, 255, 224);
+		}
+		#unittable tr.科学 > td:first-child,
+		#infotable tr.科学 > td:first-child {
+			background-color: rgb(221, 160, 221);
+		}
+		#unittable tr > td:hover:first-child{
+			background-color: inherit;
+		}
+
 		.toast-group {
 			position: fixed;
 			top: 1rem;
@@ -70,24 +94,48 @@ Released under the MIT license
 			z-index: 9999;
 		}
 
-		@media screen and (max-width: 575px) {
+		@media screen and (max-width: 576px) {
 			.th-status,
 			.th-status-sm {
-				width: 135px;
+				width: 96px;
 			}
 
 			.th-evo,
 			.th-trust,
+			.th-luck,
+			.th-skill,
 			.th-evo-sm,
-			.th-trust-sm {
-				width: 80px;
+			.th-trust-sm,
+			.th-luck-sm,
+			.th-skill-sm
+			 {
+				width: 64px;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			.th-status,
+			.th-status-sm {
+				width: 96px;
+			}
+
+			.th-evo,
+			.th-trust,
+			.th-luck,
+			.th-skill,
+			.th-evo-sm,
+			.th-trust-sm,
+			.th-luck-sm,
+			.th-skill-sm
+			 {
+				width: 64px;
 			}
 		}
 	</style>
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-md">
 		<div class="jumbotron mt-2">
 			<h1>新米オークの秘密デッキ</h1>
 			<p class="lead">対魔忍RPGのユニットを管理しましょう</p>
@@ -133,6 +181,28 @@ Released under the MIT license
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="small text-right">（ブラウザに保存されているこのページのデータを消去し初期化します）</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="infotable">
+					<table class="table table-sm　table-hover table-bordered">
+						<thead><tr><th>色の意味</th></thead>
+						<tbody>
+							<tr class="超人"><td>超人</td></tr>
+							<tr class="魔性"><td>魔性</td></tr>
+							<tr class="精神"><td>精神</td></tr>
+							<tr class="自然"><td>自然</td></tr>
+							<tr class="科学"><td>科学</td></tr>
+							<tr class="特典"><td>特典</td></tr>
+							<tr class="イベント配布"><td>イベント配布</td></tr>
+							<tr class="イベント抽選"><td>イベント抽選</td></tr>
+							<tr class="五車祭"><td>五車祭</td></tr>
+							<tr class="決戦ユニット"><td>決戦ユニット</td></tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 		<hr>

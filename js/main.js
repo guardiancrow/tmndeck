@@ -39,14 +39,17 @@ $(document).ready(function() {
 			if (data[i]['status'] == '') {
 				data[i]['status'] = 'none';
 				data[i]['evo'] = 0;
-				data[i]['trust'] = 0;
+				data[i]['luck'] = 0;
+				data[i]['skill'] = 0;
 				continue;
 			} else if (data[i]['status'] == 'max' && (data[i]['evo'] != 2 || data[i]['trust'] != 3)) {
 				data[i]['evo'] = 2;
 				data[i]['trust'] = 3;
-			} else if ((data[i]['status'] == 'wish' || data[i]['status'] == 'none') && (data[i]['evo'] != 0 || data[i]['trust'] != 0)) {
+			} else if ((data[i]['status'] == 'wish' || data[i]['status'] == 'none') && (data[i]['evo'] != 0 || data[i]['trust'] != 0 || data[i]['luck'] != 0 || data[i]['skill'] != 0)) {
 				data[i]['evo'] = 0;
 				data[i]['trust'] = 0;
+				data[i]['luck'] = 0;
+				data[i]['skill'] = 0;
 			}
 		}
 	}
@@ -65,7 +68,9 @@ $(document).ready(function() {
 					limited: unitdata[i]['limited'],
 					status: '',
 					evo: '',
-					trust: ''
+					trust: '',
+					luck: '',
+					skill: ''
 				});
 			}
 			vaildData(result);
@@ -87,7 +92,9 @@ $(document).ready(function() {
 						limited: unitdata[i]['limited'],
 						status: parsonaldata[j]['status'],
 						evo: parsonaldata[j]['evo'],
-						trust: parsonaldata[j]['trust']
+						trust: parsonaldata[j]['trust'],
+						luck: parsonaldata[j]['luck'],
+						skill: parsonaldata[j]['skill']
 					});
 					b = true;
 					break;
@@ -103,7 +110,9 @@ $(document).ready(function() {
 					limited: unitdata[i]['limited'],
 					status: '',
 					evo: '',
-					trust: ''
+					trust: '',
+					luck: '',
+					skill: ''
 				});
 			}
 		}
@@ -143,6 +152,10 @@ $(document).ready(function() {
 					evo = cells.eq(j).find(".evo").val();
 				} else if (cells.eq(j).find(".trust").val()) {
 					trust = cells.eq(j).find(".trust").val();
+				} else if (cells.eq(j).find(".luck").val()) {
+					luck = cells.eq(j).find(".luck").val();
+				} else if (cells.eq(j).find(".skill").val()) {
+					skill = cells.eq(j).find(".skill").val();
 				}
 			}
 			data.push({
@@ -151,7 +164,9 @@ $(document).ready(function() {
 				name: unitname,
 				status: status,
 				evo: evo,
-				trust: trust
+				trust: trust,
+				luck: luck,
+				skill: skill
 			});
 		}
 		try {
@@ -174,7 +189,8 @@ $(document).ready(function() {
 	var buildStatusBox = function(data_single) {
 		var sel = $('<select>');
 		sel.attr('id', 'status_' + data_single['id']);
-		sel.attr('class', 'custom-select status');
+		sel.attr('class', 'custom-select custom-select-sm status');
+		sel.attr('data-width', 'auto');
 		sel.append($("<option>").val("max").text("育成完了"));
 		sel.append($("<option>").val("grow").text("育成中"));
 		sel.append($("<option>").val("wait").text("待機中"));
@@ -193,7 +209,7 @@ $(document).ready(function() {
 	var buildEvoBox = function(data_single) {
 		var sel = $('<select>');
 		sel.attr('id', 'evo_' + data_single['id']);
-		sel.attr('class', 'custom-select evo');
+		sel.attr('class', 'custom-select custom-select-sm evo');
 		sel.append($("<option>").attr("selected", "selected").val("0").text("0"));
 		sel.append($("<option>").val("1").text("1"));
 		sel.append($("<option>").val("2").text("2"));
@@ -224,7 +240,7 @@ $(document).ready(function() {
 	var buildTrustBox = function(data_single) {
 		var sel = $('<select>');
 		sel.attr('id', 'trust_' + data_single['id']);
-		sel.attr('class', 'custom-select trust');
+		sel.attr('class', 'custom-select custom-select-sm trust');
 		sel.append($("<option>").attr("selected", "selected").val("0").text("0"));
 		sel.append($("<option>").val("1").text("1"));
 		sel.append($("<option>").val("2").text("2"));
@@ -244,6 +260,66 @@ $(document).ready(function() {
 
 		switch (data_single['status']) {
 			case 'max':
+			case 'wish':
+			case 'none':
+				sel.attr('disabled', 'disabled');
+				break;
+		}
+
+		return sel;
+	}
+
+	var buildLuckBox = function(data_single) {
+		var sel = $('<select>');
+		sel.attr('id', 'luck_' + data_single['id']);
+		sel.attr('class', 'custom-select custom-select-sm luck');
+		for (var i = 0; i <= 100; i++) {
+			sel.append($("<option>").val(i).text(i));
+		}
+
+		if (data_single['luck']) {
+			if (!isNaN(data_single['luck']) && data_single['luck'] > 100) {
+				sel.val("100");
+			} else if (!isNaN(data_single['luck']) && data_single['luck'] < 0) {
+				sel.val("0");
+			} else {
+				sel.val(data_single['luck']);
+			}
+		} else {
+			sel.val("0");
+		}
+
+		switch (data_single['status']) {
+			case 'wish':
+			case 'none':
+				sel.attr('disabled', 'disabled');
+				break;
+		}
+
+		return sel;
+	}
+
+	var buildSkillBox = function(data_single) {
+		var sel = $('<select>');
+		sel.attr('id', 'skill_' + data_single['id']);
+		sel.attr('class', 'custom-select custom-select-sm skill');
+		for (var i = 0; i <= 5; i++) {
+			sel.append($("<option>").val(i).text(i));
+		}
+
+		if (data_single['skill']) {
+			if (!isNaN(data_single['skill']) && data_single['skill'] > 5) {
+				sel.val("5");
+			} else if (!isNaN(data_single['skill']) && data_single['skill'] < 0) {
+				sel.val("0");
+			} else {
+				sel.val(data_single['skill']);
+			}
+		} else {
+			sel.val("0");
+		}
+
+		switch (data_single['status']) {
 			case 'wish':
 			case 'none':
 				sel.attr('disabled', 'disabled');
@@ -865,7 +941,6 @@ $(document).ready(function() {
 		window.RotChart = new Chart(canvas, {
 			type: 'line',
 			data: {
-				//labels: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'],
 				labels: labels,
 				datasets: datasets,
 			},
@@ -1147,30 +1222,36 @@ $(document).ready(function() {
 		header.append(sort_wrap);
 
 		var responsive = $('<div>');
-		responsive.attr('class', 'table-responsive-md');
+		responsive.attr('class', 'table-responsive table-responsive-md');
 
 		var table = $('<table class="table table-hover table-bordered"></table>');
-		var thead = $('<thead><tr><th>ユニット名</th><th>属性</th><th>初期レアリティ</th><th>限定</th><th><div class="th-status">状態</div></th><th><div class="th-evo">覚醒</div></th><th><div class="th-trust">信頼度</div></th></tr></thead>');
+		var thead = $('<thead><tr><th>ユニット名</th><th>レア</th><th><div class="th-status">状態</div></th><th><div class="th-evo">覚醒</div></th><th><div class="th-trust">信頼度</div></th><th><div class="th-luck">ラック</div></th><th><div class="th-skill">スキル</div></th></tr></thead>');
 		var tbody = $("<tbody></tbody>");
 
 		var i;
 		for (i = 0; i < data.length; i++) {
-			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + '"></tr>');
+			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' +  data[i]['limited'] + '"></tr>');
 			row.append('<td><span class="unitname">' + data[i]['name'] + "</span></td>");
-			row.append('<td class="' + data[i]['attribute'] + '">' + data[i]['attribute'] + "</td>");
 			row.append("<td>" + data[i]['rarity'] + "</td>");
-			row.append("<td>" + data[i]['limited'] + "</td>");
 
-			var td = $('<td style="width:135px;"></td>');
+			var td =$('<td>');
 			td.append(buildStatusBox(data[i]));
 			row.append(td);
 
-			td = $('<td style="width:80px;"></td>');
+			td = $('<td>');
 			td.append(buildEvoBox(data[i]));
 			row.append(td);
 
-			td = $('<td style="width:80px;"></td>');
+			td = $('<td>');
 			td.append(buildTrustBox(data[i]));
+			row.append(td);
+
+			td = $('<td>');
+			td.append(buildLuckBox(data[i]));
+			row.append(td);
+
+			td = $('<td>');
+			td.append(buildSkillBox(data[i]));
 			row.append(td);
 
 			tbody.append(row);
@@ -1228,19 +1309,29 @@ $(document).ready(function() {
 		var status = $(this).val();
 		var evo = $(this).parent().parent().find('.evo');
 		var trust = $(this).parent().parent().find('.trust');
+		var luck = $(this).parent().parent().find('.luck');
+		var skill = $(this).parent().parent().find('.skill');
 		if (status === 'max') {
 			evo.val(2);
 			evo.attr('disabled', 'disabled');
 			trust.val(3);
 			trust.attr('disabled', 'disabled');
+			luck.removeAttr('disabled').focus();
+			skill.removeAttr('disabled').focus();
 		} else if (status === 'wish' || status === 'none') {
 			evo.val(0);
 			evo.attr('disabled', 'disabled');
 			trust.val(0);
 			trust.attr('disabled', 'disabled');
+			luck.val(0);
+			luck.attr('disabled', 'disabled');
+			skill.val(0);
+			skill.attr('disabled', 'disabled');
 		} else {
 			evo.removeAttr('disabled').focus();
 			trust.removeAttr('disabled').focus();
+			luck.removeAttr('disabled').focus();
+			skill.removeAttr('disabled').focus();
 		}
 	})
 
