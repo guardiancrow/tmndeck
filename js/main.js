@@ -271,36 +271,6 @@ $(document).ready(function() {
 		return sel;
 	}
 
-	var buildLuckBox = function(data_single) {
-		var sel = $('<select>');
-		sel.attr('id', 'luck_' + data_single['id']);
-		sel.attr('class', 'custom-select custom-select-sm luck');
-		for (var i = 0; i <= 100; i++) {
-			sel.append($("<option>").val(i).text(i));
-		}
-
-		if (data_single['luck']) {
-			if (!isNaN(data_single['luck']) && data_single['luck'] > 100) {
-				sel.val("100");
-			} else if (!isNaN(data_single['luck']) && data_single['luck'] < 0) {
-				sel.val("0");
-			} else {
-				sel.val(data_single['luck']);
-			}
-		} else {
-			sel.val("0");
-		}
-
-		switch (data_single['status']) {
-			case 'wish':
-			case 'none':
-				sel.attr('disabled', 'disabled');
-				break;
-		}
-
-		return sel;
-	}
-
 	var buildSkillBox = function(data_single) {
 		var sel = $('<select>');
 		sel.attr('id', 'skill_' + data_single['id']);
@@ -316,6 +286,36 @@ $(document).ready(function() {
 				sel.val("0");
 			} else {
 				sel.val(data_single['skill']);
+			}
+		} else {
+			sel.val("0");
+		}
+
+		switch (data_single['status']) {
+			case 'wish':
+			case 'none':
+				sel.attr('disabled', 'disabled');
+				break;
+		}
+
+		return sel;
+	}
+
+	var buildLuckBox = function(data_single) {
+		var sel = $('<select>');
+		sel.attr('id', 'luck_' + data_single['id']);
+		sel.attr('class', 'custom-select custom-select-sm luck');
+		for (var i = 0; i <= 100; i++) {
+			sel.append($("<option>").val(i).text(i));
+		}
+
+		if (data_single['luck']) {
+			if (!isNaN(data_single['luck']) && data_single['luck'] > 100) {
+				sel.val("100");
+			} else if (!isNaN(data_single['luck']) && data_single['luck'] < 0) {
+				sel.val("0");
+			} else {
+				sel.val(data_single['luck']);
 			}
 		} else {
 			sel.val("0");
@@ -1250,7 +1250,7 @@ $(document).ready(function() {
 		responsive.attr('class', 'table-responsive table-responsive-md');
 
 		var table = $('<table class="table table-hover table-bordered"></table>');
-		var thead = $('<thead><tr><th>ユニット名</th><th>レア</th><th><div class="th-status">状態</div></th><th><div class="th-evo">覚醒</div></th><th><div class="th-trust">信頼度</div></th><th><div class="th-luck">ラック</div></th><th><div class="th-skill">スキル</div></th></tr></thead>');
+		var thead = $('<thead><tr><th>ユニット名</th><th>レア</th><th><div class="th-status">状態</div></th><th><div class="th-evo">覚醒</div></th><th><div class="th-trust">信頼度</div></th><th><div class="th-skill">スキル</div></th><th><div class="th-luck">ラック</div></th></tr></thead>');
 		var tbody = $("<tbody></tbody>");
 
 		var i;
@@ -1278,11 +1278,11 @@ $(document).ready(function() {
 			row.append(td);
 
 			td = $('<td>');
-			td.append(buildLuckBox(data[i]));
+			td.append(buildSkillBox(data[i]));
 			row.append(td);
 
 			td = $('<td>');
-			td.append(buildSkillBox(data[i]));
+			td.append(buildLuckBox(data[i]));
 			row.append(td);
 
 			tbody.append(row);
@@ -1340,29 +1340,29 @@ $(document).ready(function() {
 		var status = $(this).val();
 		var evo = $(this).parent().parent().find('.evo');
 		var trust = $(this).parent().parent().find('.trust');
-		var luck = $(this).parent().parent().find('.luck');
 		var skill = $(this).parent().parent().find('.skill');
+		var luck = $(this).parent().parent().find('.luck');
 		if (status === 'max') {
 			evo.val(2);
 			evo.attr('disabled', 'disabled');
 			trust.val(3);
 			trust.attr('disabled', 'disabled');
-			luck.removeAttr('disabled').focus();
 			skill.removeAttr('disabled').focus();
+			luck.removeAttr('disabled').focus();
 		} else if (status === 'wish' || status === 'none') {
 			evo.val(0);
 			evo.attr('disabled', 'disabled');
 			trust.val(0);
 			trust.attr('disabled', 'disabled');
-			luck.val(0);
-			luck.attr('disabled', 'disabled');
 			skill.val(0);
 			skill.attr('disabled', 'disabled');
+			luck.val(0);
+			luck.attr('disabled', 'disabled');
 		} else {
 			evo.removeAttr('disabled').focus();
 			trust.removeAttr('disabled').focus();
-			luck.removeAttr('disabled').focus();
 			skill.removeAttr('disabled').focus();
+			luck.removeAttr('disabled').focus();
 		}
 	})
 
