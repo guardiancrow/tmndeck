@@ -302,15 +302,27 @@ $(document).ready(function() {
 	}
 
 	var buildLuckBox = function(data_single) {
+		var maxLuck = 100;
+		switch (data_single['rarity']) {
+			case 'HR':
+				maxLuck = 90;
+				break;
+			case 'R':
+				maxLuck = 80;
+				break;
+			default:
+				maxLuck = 100;
+				break;
+		}
 		var sel = $('<select>');
 		sel.attr('id', 'luck_' + data_single['id']);
 		sel.attr('class', 'custom-select custom-select-sm luck');
-		for (var i = 0; i <= 100; i++) {
+		for (var i = 0; i <= maxLuck; i++) {
 			sel.append($("<option>").val(i).text(i));
 		}
 
 		if (data_single['luck']) {
-			if (!isNaN(data_single['luck']) && data_single['luck'] > 100) {
+			if (!isNaN(data_single['luck']) && data_single['luck'] > maxLuck) {
 				sel.val("100");
 			} else if (!isNaN(data_single['luck']) && data_single['luck'] < 0) {
 				sel.val("0");
