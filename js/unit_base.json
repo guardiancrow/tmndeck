@@ -2013,5 +2013,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 336
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 62001,
+		"limited": "イベント配布",
+		"name": "アンジェ",
+		"nickname": "【お色直し】",
+		"rarity": "SR",
+		"unit_id": 338
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 62002,
+		"limited": "イベント抽選",
+		"name": "水城　ゆきかぜ",
+		"nickname": "【雷撃の花嫁】",
+		"rarity": "SR",
+		"unit_id": 339
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 62003,
+		"limited": "イベント抽選",
+		"name": "ふうま　災禍",
+		"nickname": "【花嫁秘書】",
+		"rarity": "HR",
+		"unit_id": 340
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 62004,
+		"limited": "イベント抽選",
+		"name": "由利　翡翠",
+		"nickname": "【ジェイドブライド】",
+		"rarity": "R",
+		"unit_id": 341
 	}
 ]
