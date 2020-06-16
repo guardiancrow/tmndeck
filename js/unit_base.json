@@ -2049,5 +2049,50 @@
 		"nickname": "【ジェイドブライド】",
 		"rarity": "R",
 		"unit_id": 341
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 63001,
+		"limited": "イベント配布",
+		"name": "ドナ・バロウズ",
+		"nickname": "【試験兵装】",
+		"rarity": "SR",
+		"unit_id": 343
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 63002,
+		"limited": "",
+		"name": "ブリュンヒルド",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 344
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 63003,
+		"limited": "",
+		"name": "フォルシア",
+		"nickname": "【隠遁バニー】",
+		"rarity": "HR",
+		"unit_id": 345
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 63004,
+		"limited": "",
+		"name": "葉月",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 346
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 64001,
+		"limited": "決戦ユニット",
+		"name": "ジュノ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7006
 	}
 ]
