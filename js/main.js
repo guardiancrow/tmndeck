@@ -171,8 +171,34 @@ $(document).ready(function() {
 				skill: skill
 			});
 		}
+
+		//古いデータと突き合わせ
+		var storedata = null;
 		try {
-			localStorage.setItem('tmndeck', JSON.stringify(data));
+			storedata = JSON.parse(localStorage.getItem('tmndeck'));
+		} catch (e) {
+			storedata = null;
+		}
+
+		if (storedata == null || storedata.length == 0) {
+			try {
+				localStorage.setItem('tmndeck', JSON.stringify(data));
+			} catch (e) {
+				return false;
+			}
+			return true;
+		}
+
+		for (var i in data) {
+			for (var j in storedata) {
+				if (data[i]['unit_id'] == storedata[j]['unit_id']) {
+					storedata[j] = data[i];
+				}
+			}
+		}
+
+		try {
+			localStorage.setItem('tmndeck', JSON.stringify(storedata));
 		} catch (e) {
 			return false;
 		}
@@ -879,7 +905,7 @@ $(document).ready(function() {
 
 		var maxtimes = times_user;
 
-		if (maxtimes < 0 ) {
+		if (maxtimes < 0) {
 			maxtimes = 0;
 		} else if (maxtimes > 500) {
 			maxtimes = 500;
@@ -1273,11 +1299,11 @@ $(document).ready(function() {
 			if (hideMaxed && data[i]['status'] == 'max') {
 				continue;
 			}
-			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' +  data[i]['limited'] + '"></tr>');
+			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' + data[i]['limited'] + '"></tr>');
 			row.append('<td><span class="unitname">' + data[i]['name'] + "</span></td>");
 			row.append("<td>" + data[i]['rarity'] + "</td>");
 
-			var td =$('<td>');
+			var td = $('<td>');
 			td.append(buildStatusBox(data[i]));
 			row.append(td);
 
