@@ -2094,5 +2094,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7006
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 66001,
+		"limited": "イベント配布",
+		"name": "磯咲　伊紀",
+		"nickname": "【ビーチの優等生】",
+		"rarity": "SR",
+		"unit_id": 350
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 66002,
+		"limited": "イベント抽選",
+		"name": "水城　不知火",
+		"nickname": "【ビーチな人妻】",
+		"rarity": "SR",
+		"unit_id": 351
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 66003,
+		"limited": "イベント抽選",
+		"name": "セシリア・チェロ",
+		"nickname": "【大波チョコ波】",
+		"rarity": "HR",
+		"unit_id": 352
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 66004,
+		"limited": "イベント抽選",
+		"name": "シュヴァリエ",
+		"nickname": "【賢者のバカンス】",
+		"rarity": "R",
+		"unit_id": 353
 	}
 ]
