@@ -104,7 +104,7 @@ $(document).ready(function() {
 			}
 			if (!b) {
 				result.push({
-					id: unitdata[i]['id_chara'],
+					id: unitdata[i]['chara_id'],
 					unit_id: unitdata[i]['unit_id'],
 					name: unitdata[i]['name'],
 					attribute: unitdata[i]['attribute'],
@@ -172,7 +172,6 @@ $(document).ready(function() {
 			});
 		}
 
-		//古いデータと突き合わせ
 		var storedata = null;
 		try {
 			storedata = JSON.parse(localStorage.getItem('tmndeck'));
@@ -180,7 +179,8 @@ $(document).ready(function() {
 			storedata = null;
 		}
 
-		if (storedata == null || storedata.length == 0) {
+		//新規の場合（tmndeckがない）
+		if (storedata == null) {
 			try {
 				localStorage.setItem('tmndeck', JSON.stringify(data));
 			} catch (e) {
@@ -189,11 +189,25 @@ $(document).ready(function() {
 			return true;
 		}
 
+		//既存データ書き換え
 		for (var i in data) {
 			for (var j in storedata) {
 				if (data[i]['unit_id'] == storedata[j]['unit_id']) {
 					storedata[j] = data[i];
 				}
+			}
+		}
+
+		//差分データ追加（ユニットが新規追加されたときなど）
+		for (var i in data) {
+			var flag = false;
+			for (var j in storedata) {
+				if (data[i]['unit_id'] == storedata[j]['unit_id']) {
+					flag = true;
+				}
+			}
+			if (!flag) {
+				storedata.push(data[i]);
 			}
 		}
 
