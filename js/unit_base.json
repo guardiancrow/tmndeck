@@ -2130,5 +2130,50 @@
 		"nickname": "【賢者のバカンス】",
 		"rarity": "R",
 		"unit_id": 353
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 67001,
+		"limited": "イベント配布",
+		"name": "クラクル",
+		"nickname": "【浜辺の猫】",
+		"rarity": "SR",
+		"unit_id": 354
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 67002,
+		"limited": "イベント抽選",
+		"name": "ふうま　時子",
+		"nickname": "【サマーバカンス】",
+		"rarity": "SR",
+		"unit_id": 355
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 67003,
+		"limited": "イベント抽選",
+		"name": "エレーナ",
+		"nickname": "【波際のまどろみ】",
+		"rarity": "HR",
+		"unit_id": 356
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 67004,
+		"limited": "イベント抽選",
+		"name": "レーベ・サフリー",
+		"nickname": "【望まぬ休暇】",
+		"rarity": "R",
+		"unit_id": 357
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 68001,
+		"limited": "決戦ユニット",
+		"name": "土橋　権左",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7008
 	}
 ]
