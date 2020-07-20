@@ -554,13 +554,16 @@ $(document).ready(function() {
 								evoitemat.gem += 25;
 								evoitemat.pyroxene += 40;
 								evoitems.pirce_hero += 80;
+								evoitems.mystery += 5;
+								evoitems.origin += 10;
+								evoitems.decisive_item += 10;
 							} else if (data[i]['evo'] == 1) {
 								evoitemat.pyroxene += 30;
 								evoitems.pirce_hero += 50;
+								evoitems.mystery += 5;
+								evoitems.origin += 10;
+								evoitems.decisive_item += 10;
 							}
-							evoitems.mystery += 5;
-							evoitems.origin += 10;
-							evoitems.decisive_item += 10;
 							break;
 						}
 						if (data[i]['evo'] == 0) {
