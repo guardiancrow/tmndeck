@@ -2175,5 +2175,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7008
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 70001,
+		"limited": "イベント配布",
+		"name": "Ａ－６６・ルーナ",
+		"nickname": "【一般擬態モード】",
+		"rarity": "SR",
+		"unit_id": 361
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 70002,
+		"limited": "",
+		"name": "高坂　静流",
+		"nickname": "【夏の女教師】",
+		"rarity": "SR",
+		"unit_id": 362
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 70003,
+		"limited": "",
+		"name": "ナドラ",
+		"nickname": "【夏の魔眼】",
+		"rarity": "HR",
+		"unit_id": 363
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 70004,
+		"limited": "",
+		"name": "リーナ",
+		"nickname": "【サマーストーム】",
+		"rarity": "R",
+		"unit_id": 364
 	}
 ]
