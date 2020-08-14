@@ -2211,5 +2211,50 @@
 		"nickname": "【サマーストーム】",
 		"rarity": "R",
 		"unit_id": 364
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 71001,
+		"limited": "決戦ユニット",
+		"name": "八百比丘尼",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7002
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 72001,
+		"limited": "イベント配布",
+		"name": "ふうま　亜希",
+		"nickname": "【祭り装束】",
+		"rarity": "SR",
+		"unit_id": 365
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 72002,
+		"limited": "イベント抽選",
+		"name": "クローンアサギ",
+		"nickname": "【夏祭り】",
+		"rarity": "SR",
+		"unit_id": 366
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 72003,
+		"limited": "イベント抽選",
+		"name": "ナディア",
+		"nickname": "【祭りの後】",
+		"rarity": "HR",
+		"unit_id": 367
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 72004,
+		"limited": "イベント抽選",
+		"name": "ユーリヤ",
+		"nickname": "【浴衣メイド】",
+		"rarity": "R",
+		"unit_id": 368
 	}
 ]
