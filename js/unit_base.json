@@ -2256,5 +2256,50 @@
 		"nickname": "【浴衣メイド】",
 		"rarity": "R",
 		"unit_id": 368
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 74001,
+		"limited": "イベント配布",
+		"name": "神村　舞華",
+		"nickname": "【バニー】",
+		"rarity": "SR",
+		"unit_id": 371
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 74002,
+		"limited": "",
+		"name": "鬼崎　きらら",
+		"nickname": "【バニー先輩】",
+		"rarity": "SR",
+		"unit_id": 372
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 74003,
+		"limited": "",
+		"name": "喜瀬　蛍",
+		"nickname": "【リバースバニー】",
+		"rarity": "HR",
+		"unit_id": 373
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 74004,
+		"limited": "",
+		"name": "星乃　深月",
+		"nickname": "【扇嵐バニー】",
+		"rarity": "R",
+		"unit_id": 374
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 75001,
+		"limited": "決戦ユニット",
+		"name": "白きサキュバス",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7009
 	}
 ]
