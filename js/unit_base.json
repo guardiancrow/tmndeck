@@ -2301,5 +2301,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7009
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 76001,
+		"limited": "イベント配布",
+		"name": "トラジロー",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 375
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 76002,
+		"limited": "",
+		"name": "鉄華院　カヲル",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 376
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 76003,
+		"limited": "",
+		"name": "詩嶋　麦",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 377
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 76004,
+		"limited": "",
+		"name": "リリノーエ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 378
 	}
 ]
