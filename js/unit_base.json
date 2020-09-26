@@ -2337,5 +2337,23 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 378
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 78001,
+		"limited": "五車祭",
+		"name": "アリシア・ビューストレーム",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 379
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 78002,
+		"limited": "五車祭",
+		"name": "マヤ・コーデリア",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 380
 	}
 ]
