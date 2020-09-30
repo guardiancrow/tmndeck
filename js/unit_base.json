@@ -2355,5 +2355,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 380
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 79001,
+		"limited": "イベント配布",
+		"name": "ブリジット",
+		"nickname": "【穢れ身の背徳】",
+		"rarity": "SR",
+		"unit_id": 382
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 79002,
+		"limited": "",
+		"name": "氷室　花蓮",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 383
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 79003,
+		"limited": "",
+		"name": "アイリーン・ウォルト",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 384
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 79004,
+		"limited": "",
+		"name": "長沼　美蔓",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 385
 	}
 ]
