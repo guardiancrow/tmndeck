@@ -2391,5 +2391,41 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 385
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 80001,
+		"limited": "イベント配布",
+		"name": "ジェネラルハロウィン・ルネ",
+		"nickname": "【再び見参！】",
+		"rarity": "SR",
+		"unit_id": 386
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 80002,
+		"limited": "イベント抽選",
+		"name": "相州　蛇子",
+		"nickname": "【ハロウィン】",
+		"rarity": "SR",
+		"unit_id": 387
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 80003,
+		"limited": "イベント抽選",
+		"name": "弓走　颯",
+		"nickname": "【堅物ハロウィン】",
+		"rarity": "HR",
+		"unit_id": 388
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 80004,
+		"limited": "イベント抽選",
+		"name": "ミナサキ",
+		"nickname": "【トリック＆トリック】",
+		"rarity": "R",
+		"unit_id": 389
 	}
 ]
