@@ -2427,5 +2427,41 @@
 		"nickname": "【トリック＆トリック】",
 		"rarity": "R",
 		"unit_id": 389
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 82001,
+		"limited": "イベント配布",
+		"name": "石川　あむ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 393
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 82002,
+		"limited": "",
+		"name": "上原　鹿之助",
+		"nickname": "【仕来り】",
+		"rarity": "SR",
+		"unit_id": 394
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 82003,
+		"limited": "",
+		"name": "ユーリ",
+		"nickname": "【魅惑の眼差し】",
+		"rarity": "HR",
+		"unit_id": 395
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 82004,
+		"limited": "",
+		"name": "ファリーラ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 396
 	}
 ]
