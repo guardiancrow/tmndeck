@@ -2463,5 +2463,14 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 396
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 83001,
+		"limited": "決戦ユニット",
+		"name": "黒騎　雫",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7003
 	}
 ]
