@@ -2472,5 +2472,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7003
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 84001,
+		"limited": "イベント配布",
+		"name": "フランシス",
+		"nickname": "【カチコミギャル】",
+		"rarity": "SR",
+		"unit_id": 397
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 84002,
+		"limited": "",
+		"name": "ナーサラ",
+		"nickname": "【フラフラ娘】",
+		"rarity": "SR",
+		"unit_id": 398
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 84003,
+		"limited": "",
+		"name": "掛原　鷹臣",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 399
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 84004,
+		"limited": "",
+		"name": "セルヴィア・ローザマリー",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 400
 	}
 ]
