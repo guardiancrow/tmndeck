@@ -2508,5 +2508,23 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 400
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 86001,
+		"limited": "五車祭",
+		"name": "大人ゆきかぜ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 401
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 86002,
+		"limited": "五車祭",
+		"name": "若い天音",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 402
 	}
 ]
