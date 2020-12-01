@@ -2526,5 +2526,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 402
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 87001,
+		"limited": "イベント配布",
+		"name": "ミリアム",
+		"nickname": "【自己流女教師】",
+		"rarity": "SR",
+		"unit_id": 405
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 87002,
+		"limited": "",
+		"name": "ケイリー・マイヤーズ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 406
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 87003,
+		"limited": "",
+		"name": "清水　神流",
+		"nickname": "【学園生活】",
+		"rarity": "HR",
+		"unit_id": 407
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 87004,
+		"limited": "",
+		"name": "櫛延　澄香",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 408
 	}
 ]
