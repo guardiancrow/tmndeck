@@ -2562,5 +2562,41 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 408
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 88001,
+		"limited": "イベント配布",
+		"name": "穂稀　なお",
+		"nickname": "【クリスマス】",
+		"rarity": "SR",
+		"unit_id": 409
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 88002,
+		"limited": "イベント抽選",
+		"name": "井河　さくら",
+		"nickname": "【Ｘｍａｓアルバイター】",
+		"rarity": "SR",
+		"unit_id": 410
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 88003,
+		"limited": "イベント抽選",
+		"name": "アンリード・ボニー",
+		"nickname": "【クリスマス】",
+		"rarity": "HR",
+		"unit_id": 411
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 88004,
+		"limited": "イベント抽選",
+		"name": "シアリー",
+		"nickname": "【耐聖夜】",
+		"rarity": "R",
+		"unit_id": 412
 	}
 ]
