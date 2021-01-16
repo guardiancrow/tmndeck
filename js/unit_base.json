@@ -2652,5 +2652,41 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7004
+	},
+	{
+		"attribute": "魔性",
+		"chara_id": 94001,
+		"limited": "イベント配布",
+		"name": "カウーラ",
+		"nickname": "【悪を狩る邪悪】",
+		"rarity": "SR",
+		"unit_id": 418
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 94002,
+		"limited": "",
+		"name": "ふうま　亜希",
+		"nickname": "【潜入装備】",
+		"rarity": "SR",
+		"unit_id": 419
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 94003,
+		"limited": "",
+		"name": "大島　雫",
+		"nickname": "【ちっぱい雫】",
+		"rarity": "HR",
+		"unit_id": 420
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 94004,
+		"limited": "",
+		"name": "セイロン",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 421
 	}
 ]
