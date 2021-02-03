@@ -2688,5 +2688,41 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 421
+	},
+	{
+		"attribute": "自然",
+		"chara_id": 96001,
+		"limited": "イベント配布",
+		"name": "エレオノール",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 423
+	},
+	{
+		"attribute": "超人",
+		"chara_id": 96002,
+		"limited": "",
+		"name": "井河　アサギ",
+		"nickname": "【無刀魔滅】",
+		"rarity": "SR",
+		"unit_id": 424
+	},
+	{
+		"attribute": "科学",
+		"chara_id": 96003,
+		"limited": "",
+		"name": "ハウエラ・ヴィンセンス",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 425
+	},
+	{
+		"attribute": "精神",
+		"chara_id": 96004,
+		"limited": "",
+		"name": "ふうま　廻",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 426
 	}
 ]
