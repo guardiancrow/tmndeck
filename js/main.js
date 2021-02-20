@@ -1,5 +1,5 @@
 /*
-Copyright(c) 2020 @guardiancrow
+Copyright(c) 2021 @guardiancrow
 Released under the MIT license
 */
 
@@ -62,7 +62,6 @@ $(document).ready(function() {
 		if (parsonaldata == null) {
 			for (i = 0; i < unitdata.length; i++) {
 				result.push({
-					id: unitdata[i]['chara_id'],
 					unit_id: unitdata[i]['unit_id'],
 					name: unitdata[i]['name'],
 					attribute: unitdata[i]['attribute'],
@@ -86,7 +85,6 @@ $(document).ready(function() {
 			for (j = 0; j < parsonaldata.length; j++) {
 				if (unitdata[i]['name'] == parsonaldata[j]['name']) {
 					result.push({
-						id: unitdata[i]['chara_id'],
 						unit_id: unitdata[i]['unit_id'],
 						name: unitdata[i]['name'],
 						attribute: unitdata[i]['attribute'],
@@ -104,7 +102,6 @@ $(document).ready(function() {
 			}
 			if (!b) {
 				result.push({
-					id: unitdata[i]['chara_id'],
 					unit_id: unitdata[i]['unit_id'],
 					name: unitdata[i]['name'],
 					attribute: unitdata[i]['attribute'],
@@ -143,7 +140,6 @@ $(document).ready(function() {
 			var evo = '';
 			var trust = '';
 			var unit_id = row.eq(i).attr('unitid');
-			var id = row.eq(i).attr('charaid');
 			for (var j = 0; j < cells.length; j++) {
 				if (cells.eq(j).find(".unitname").text()) {
 					unitname = cells.eq(j).find(".unitname").text();
@@ -161,7 +157,6 @@ $(document).ready(function() {
 				}
 			}
 			data.push({
-				id: id,
 				unit_id: unit_id,
 				name: unitname,
 				status: status,
@@ -1316,7 +1311,7 @@ $(document).ready(function() {
 			if (hideMaxed && data[i]['status'] == 'max') {
 				continue;
 			}
-			var row = $('<tr unitid="' + data[i]['unit_id'] + '" charaid="' + data[i]['id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' + data[i]['limited'] + '"></tr>');
+			var row = $('<tr unitid="' + data[i]['unit_id'] + '"class="' + data[i]['limited'] + ' ' + data[i]['attribute'] + ' ' + data[i]['limited'] + '"></tr>');
 			row.append('<td><span class="unitname">' + data[i]['name'] + "</span></td>");
 			row.append("<td>" + data[i]['rarity'] + "</td>");
 
