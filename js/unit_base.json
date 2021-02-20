@@ -1,6 +1,5 @@
 [{
 		"attribute": "超人",
-		"chara_id": 1,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "",
@@ -9,7 +8,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 2,
 		"limited": "",
 		"name": "槇島　あやめ",
 		"nickname": "",
@@ -18,7 +16,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 3,
 		"limited": "",
 		"name": "クラクル",
 		"nickname": "",
@@ -27,7 +24,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 4,
 		"limited": "",
 		"name": "朧",
 		"nickname": "",
@@ -36,7 +32,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 5,
 		"limited": "",
 		"name": "水城　不知火",
 		"nickname": "",
@@ -45,7 +40,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 6,
 		"limited": "",
 		"name": "心願寺　紅",
 		"nickname": "",
@@ -54,7 +48,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 7,
 		"limited": "",
 		"name": "リリム",
 		"nickname": "",
@@ -63,7 +56,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 8,
 		"limited": "",
 		"name": "ナーサラ",
 		"nickname": "",
@@ -72,7 +64,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 9,
 		"limited": "",
 		"name": "ふうま　天音",
 		"nickname": "",
@@ -81,7 +72,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 10,
 		"limited": "",
 		"name": "イングリッド",
 		"nickname": "",
@@ -90,7 +80,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 11,
 		"limited": "",
 		"name": "紫藤　凜花",
 		"nickname": "",
@@ -99,7 +88,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 12,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "",
@@ -108,7 +96,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 13,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "",
@@ -117,7 +104,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 14,
 		"limited": "",
 		"name": "沙耶ＮＥＯ",
 		"nickname": "",
@@ -126,7 +112,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 15,
 		"limited": "",
 		"name": "アルカ・スティエル",
 		"nickname": "",
@@ -135,7 +120,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 16,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "",
@@ -144,7 +128,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 17,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "",
@@ -153,7 +136,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 18,
 		"limited": "",
 		"name": "クルミ・Ｓ・坂崎",
 		"nickname": "",
@@ -162,7 +144,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 19,
 		"limited": "",
 		"name": "セラステス",
 		"nickname": "",
@@ -171,7 +152,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 20,
 		"limited": "",
 		"name": "リリス・アーベル・ビンダーナーゲル",
 		"nickname": "",
@@ -180,7 +160,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 21,
 		"limited": "",
 		"name": "リーナ",
 		"nickname": "",
@@ -189,7 +168,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 22,
 		"limited": "",
 		"name": "さくら",
 		"nickname": "【影の支配者】",
@@ -198,7 +176,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 23,
 		"limited": "",
 		"name": "ミナサキ",
 		"nickname": "",
@@ -207,7 +184,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 24,
 		"limited": "",
 		"name": "ミシェア・シルキース",
 		"nickname": "【ツヴァイ】",
@@ -216,7 +192,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 25,
 		"limited": "",
 		"name": "ドロレス",
 		"nickname": "",
@@ -225,7 +200,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 26,
 		"limited": "",
 		"name": "高坂　静流",
 		"nickname": "",
@@ -234,7 +208,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 27,
 		"limited": "",
 		"name": "井河　さくら",
 		"nickname": "",
@@ -243,7 +216,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 28,
 		"limited": "",
 		"name": "ナディア",
 		"nickname": "",
@@ -252,7 +224,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 29,
 		"limited": "",
 		"name": "アンジェ",
 		"nickname": "",
@@ -261,7 +232,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 30,
 		"limited": "",
 		"name": "ミラベル・ベル",
 		"nickname": "",
@@ -270,7 +240,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 31,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【駆動武装】",
@@ -279,7 +248,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 32,
 		"limited": "",
 		"name": "大島　雫",
 		"nickname": "",
@@ -288,7 +256,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 33,
 		"limited": "",
 		"name": "由利　翡翠",
 		"nickname": "",
@@ -297,7 +264,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 34,
 		"limited": "",
 		"name": "グラン",
 		"nickname": "",
@@ -306,7 +272,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 35,
 		"limited": "",
 		"name": "四條　如月",
 		"nickname": "",
@@ -315,7 +280,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 36,
 		"limited": "",
 		"name": "フェリシア",
 		"nickname": "",
@@ -324,7 +288,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 37,
 		"limited": "",
 		"name": "ウィスプ",
 		"nickname": "【死霊騎士】",
@@ -333,7 +296,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 38,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【堕落の雷撃】",
@@ -342,7 +304,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 39,
 		"limited": "",
 		"name": "ワイト",
 		"nickname": "",
@@ -351,7 +312,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 40,
 		"limited": "",
 		"name": "シュヴァリエ",
 		"nickname": "",
@@ -360,7 +320,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 41,
 		"limited": "",
 		"name": "ふうま　災禍",
 		"nickname": "",
@@ -369,7 +328,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 42,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【パーティ】",
@@ -378,7 +336,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 43,
 		"limited": "",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【二丁拳銃の花嫁】",
@@ -387,7 +344,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 44,
 		"limited": "",
 		"name": "上原　燐",
 		"nickname": "",
@@ -396,7 +352,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 45,
 		"limited": "",
 		"name": "イングリッド",
 		"nickname": "【晴着美女】",
@@ -405,7 +360,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 46,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃のバレンタイン】",
@@ -414,7 +368,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 47,
 		"limited": "",
 		"name": "篠原　まり",
 		"nickname": "",
@@ -423,7 +376,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 48,
 		"limited": "",
 		"name": "雪那・グレイス",
 		"nickname": "",
@@ -432,7 +384,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 49,
 		"limited": "",
 		"name": "セドナ・アルストナ",
 		"nickname": "",
@@ -441,7 +392,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 50,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【空装武神】",
@@ -450,7 +400,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 51,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【支援型兵装】",
@@ -459,7 +408,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 3001,
 		"limited": "イベント配布",
 		"name": "井河　アサギ",
 		"nickname": "【最強の対魔忍】",
@@ -468,7 +416,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 5003,
 		"limited": "",
 		"name": "スネークレディ",
 		"nickname": "",
@@ -477,7 +424,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 6003,
 		"limited": "",
 		"name": "カノン",
 		"nickname": "",
@@ -486,7 +432,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 1001,
 		"limited": "",
 		"name": "ブリジット",
 		"nickname": "",
@@ -495,7 +440,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 4001,
 		"limited": "",
 		"name": "眞田　焔",
 		"nickname": "",
@@ -504,7 +448,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 6001,
 		"limited": "イベント配布",
 		"name": "NO.16ソニア",
 		"nickname": "",
@@ -513,7 +456,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 9002,
 		"limited": "",
 		"name": "志賀　あさつき",
 		"nickname": "",
@@ -522,7 +464,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 1002,
 		"limited": "",
 		"name": "メロード・クロア",
 		"nickname": "",
@@ -531,7 +472,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 3003,
 		"limited": "",
 		"name": "弓走　颯",
 		"nickname": "",
@@ -540,7 +480,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 6004,
 		"limited": "",
 		"name": "ドナ・バロウズ",
 		"nickname": "",
@@ -549,7 +488,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 5004,
 		"limited": "",
 		"name": "セシリア・チェロ",
 		"nickname": "",
@@ -558,7 +496,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 9004,
 		"limited": "",
 		"name": "ロッカ",
 		"nickname": "",
@@ -567,7 +504,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 5005,
 		"limited": "",
 		"name": "フォルシア",
 		"nickname": "",
@@ -576,7 +512,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 3002,
 		"limited": "",
 		"name": "喜瀬　蛍",
 		"nickname": "",
@@ -585,7 +520,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 66,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【斬鬼の対魔忍】",
@@ -594,7 +528,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 67,
 		"limited": "イベント配布",
 		"name": "水城　不知火",
 		"nickname": "【妖艶舞踏】",
@@ -603,7 +536,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 68,
 		"limited": "イベント配布",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃の対魔忍】",
@@ -612,7 +544,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 1003,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【鋼鉄の対魔忍】",
@@ -621,7 +552,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 5002,
 		"limited": "イベント配布",
 		"name": "井河　さくら",
 		"nickname": "【若き対魔忍】",
@@ -630,7 +560,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 6002,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【空蝉の仮面】",
@@ -639,7 +568,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 9001,
 		"limited": "イベント配布",
 		"name": "神村　舞華",
 		"nickname": "",
@@ -648,7 +576,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 4002,
 		"limited": "",
 		"name": "ラスタ",
 		"nickname": "",
@@ -657,7 +584,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 9003,
 		"limited": "",
 		"name": "天華",
 		"nickname": "",
@@ -666,7 +592,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 3004,
 		"limited": "",
 		"name": "イーオ・オライオン",
 		"nickname": "",
@@ -675,7 +600,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 33001,
 		"limited": "五車祭",
 		"name": "ふうま　時子",
 		"nickname": "",
@@ -684,7 +608,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 10104,
 		"limited": "",
 		"name": "ミリアム",
 		"nickname": "",
@@ -693,7 +616,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 13003,
 		"limited": "",
 		"name": "レティシア・ベルメール",
 		"nickname": "",
@@ -702,7 +624,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 81,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "【対魔忍アサギZERO】",
@@ -711,7 +632,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 7001,
 		"limited": "イベント配布",
 		"name": "リリス",
 		"nickname": "【魔女だってクリスマス】",
@@ -720,7 +640,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 7002,
 		"limited": "イベント抽選",
 		"name": "秋山　凜子",
 		"nickname": "【クリスマス】",
@@ -729,7 +648,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 7003,
 		"limited": "イベント抽選",
 		"name": "アンジェ",
 		"nickname": "【聖夜のお楽しみ】",
@@ -738,7 +656,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 7004,
 		"limited": "イベント抽選",
 		"name": "篠原　まり",
 		"nickname": "【クリスマス娘】",
@@ -747,7 +664,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 8001,
 		"limited": "イベント配布",
 		"name": "ＺＥＲＯアサギ",
 		"nickname": "【2019正月】",
@@ -756,7 +672,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 8002,
 		"limited": "イベント抽選",
 		"name": "甲河　アスカ",
 		"nickname": "【新年満喫】",
@@ -765,7 +680,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 8003,
 		"limited": "イベント抽選",
 		"name": "眞田　焔",
 		"nickname": "【稽古初め】",
@@ -774,7 +688,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 8004,
 		"limited": "イベント抽選",
 		"name": "フェリシア",
 		"nickname": "【初空】",
@@ -783,7 +696,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 10001,
 		"limited": "イベント配布",
 		"name": "ふうま　災禍",
 		"nickname": "【抱擁バレンタイン】",
@@ -792,7 +704,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 10002,
 		"limited": "",
 		"name": "獅子神　自斎",
 		"nickname": "",
@@ -801,7 +712,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 10003,
 		"limited": "",
 		"name": "ユーリヤ",
 		"nickname": "",
@@ -810,7 +720,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 10004,
 		"limited": "",
 		"name": "ラークシャシャ",
 		"nickname": "",
@@ -819,7 +728,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 10101,
 		"limited": "イベント配布",
 		"name": "クリア・ローベル",
 		"nickname": "",
@@ -828,7 +736,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 10102,
 		"limited": "",
 		"name": "高坂　静流",
 		"nickname": "【チョコ教師】",
@@ -837,7 +744,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 10103,
 		"limited": "",
 		"name": "人外のお諒",
 		"nickname": "",
@@ -846,7 +752,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 10201,
 		"limited": "イベント配布",
 		"name": "シュヴァリエ",
 		"nickname": "【桃華の賢者】",
@@ -855,7 +760,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 10202,
 		"limited": "",
 		"name": "上月　佐那",
 		"nickname": "",
@@ -864,7 +768,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 10203,
 		"limited": "",
 		"name": "葉隠　真千子",
 		"nickname": "",
@@ -873,7 +776,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 10204,
 		"limited": "",
 		"name": "アルベルタ",
 		"nickname": "",
@@ -882,7 +784,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 13001,
 		"limited": "イベント配布",
 		"name": "リーナ",
 		"nickname": "【桜嵐舞闘】",
@@ -891,7 +792,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 13002,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【剛力無双】",
@@ -900,7 +800,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 13004,
 		"limited": "",
 		"name": "羽鳥　志津香",
 		"nickname": "",
@@ -909,7 +808,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 15001,
 		"limited": "イベント配布",
 		"name": "沙耶ＮＥＯ",
 		"nickname": "【報復娘】",
@@ -918,7 +816,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 15002,
 		"limited": "",
 		"name": "黄泉　秋津",
 		"nickname": "",
@@ -927,7 +824,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 15003,
 		"limited": "",
 		"name": "フランシス",
 		"nickname": "",
@@ -936,7 +832,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 15004,
 		"limited": "",
 		"name": "清水　神流",
 		"nickname": "",
@@ -945,7 +840,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 16001,
 		"limited": "イベント配布",
 		"name": "ミーティア",
 		"nickname": "",
@@ -954,7 +848,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 16002,
 		"limited": "",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃の新学期】",
@@ -963,7 +856,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 16003,
 		"limited": "",
 		"name": "ミレイユ",
 		"nickname": "",
@@ -972,7 +864,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 16004,
 		"limited": "",
 		"name": "レーベ・サフリー",
 		"nickname": "",
@@ -981,7 +872,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 18001,
 		"limited": "イベント配布",
 		"name": "セラステス",
 		"nickname": "【電磁砲装備】",
@@ -990,7 +880,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 18002,
 		"limited": "",
 		"name": "クローンアサギ",
 		"nickname": "",
@@ -999,7 +888,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 18003,
 		"limited": "",
 		"name": "カテジナ",
 		"nickname": "",
@@ -1008,7 +896,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 18004,
 		"limited": "",
 		"name": "メルシー",
 		"nickname": "",
@@ -1017,7 +904,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 19001,
 		"limited": "イベント配布",
 		"name": "篠原　まり",
 		"nickname": "【土遁対魔忍】",
@@ -1026,7 +912,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 19002,
 		"limited": "",
 		"name": "鬼崎　きらら",
 		"nickname": "",
@@ -1035,7 +920,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 19003,
 		"limited": "",
 		"name": "ウィムル",
 		"nickname": "",
@@ -1044,7 +928,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 19004,
 		"limited": "",
 		"name": "ユノー",
 		"nickname": "",
@@ -1053,7 +936,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 21001,
 		"limited": "イベント配布",
 		"name": "アンジェ",
 		"nickname": "【ジューンブライド】",
@@ -1062,7 +944,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 21002,
 		"limited": "イベント抽選",
 		"name": "水城　不知火",
 		"nickname": "【幻影の花嫁】",
@@ -1071,7 +952,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 21003,
 		"limited": "イベント抽選",
 		"name": "ミナサキ",
 		"nickname": "【純白と黒翼】",
@@ -1080,7 +960,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 21004,
 		"limited": "イベント抽選",
 		"name": "弓走　颯",
 		"nickname": "【射止める花嫁】",
@@ -1089,7 +968,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 22001,
 		"limited": "イベント配布",
 		"name": "ツバキ",
 		"nickname": "",
@@ -1098,7 +976,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 22002,
 		"limited": "",
 		"name": "リリム",
 		"nickname": "【お気楽夢魔】",
@@ -1107,7 +984,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 22003,
 		"limited": "",
 		"name": "ユーリヤ",
 		"nickname": "【ドジっ子メイド】",
@@ -1116,7 +992,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 22004,
 		"limited": "",
 		"name": "セシリア・チェロ",
 		"nickname": "【初夏のチョコ】",
@@ -1125,7 +1000,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 24001,
 		"limited": "イベント配布",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【真夏の眼帯】",
@@ -1134,7 +1008,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 24002,
 		"limited": "イベント抽選",
 		"name": "イングリッド",
 		"nickname": "【ビーチの女帝】",
@@ -1143,7 +1016,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 24003,
 		"limited": "イベント抽選",
 		"name": "由利　翡翠",
 		"nickname": "【浜辺の翠玉】",
@@ -1152,7 +1024,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 24004,
 		"limited": "イベント抽選",
 		"name": "ドナ・バロウズ",
 		"nickname": "【ビーチウォリアー】",
@@ -1161,7 +1032,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 25001,
 		"limited": "イベント配布",
 		"name": "柳　六穂",
 		"nickname": "",
@@ -1170,7 +1040,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 25002,
 		"limited": "",
 		"name": "甲河　アスカ",
 		"nickname": "【鋼鉄の女学生】",
@@ -1179,7 +1048,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 25003,
 		"limited": "",
 		"name": "甲斐原　菜央",
 		"nickname": "",
@@ -1188,7 +1056,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 25004,
 		"limited": "",
 		"name": "ウェスタ",
 		"nickname": "",
@@ -1197,7 +1064,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 27001,
 		"limited": "イベント配布",
 		"name": "槇島　あやめ",
 		"nickname": "【単独潜入】",
@@ -1206,7 +1072,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 27002,
 		"limited": "",
 		"name": "仮面の対魔忍",
 		"nickname": "【星月夜】",
@@ -1215,7 +1080,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 27003,
 		"limited": "",
 		"name": "エレーナ",
 		"nickname": "",
@@ -1224,7 +1088,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 27004,
 		"limited": "",
 		"name": "霧原　純子",
 		"nickname": "",
@@ -1233,7 +1096,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 28001,
 		"limited": "イベント配布",
 		"name": "星乃　深月",
 		"nickname": "",
@@ -1242,7 +1104,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 28002,
 		"limited": "",
 		"name": "アンリード・ボニー",
 		"nickname": "",
@@ -1251,7 +1112,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 28003,
 		"limited": "",
 		"name": "ナドラ",
 		"nickname": "",
@@ -1260,7 +1120,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 28004,
 		"limited": "",
 		"name": "磯咲　伊織",
 		"nickname": "",
@@ -1269,7 +1128,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 27005,
 		"limited": "特典",
 		"name": "井河　アサギ",
 		"nickname": "【C96】",
@@ -1278,7 +1136,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 30001,
 		"limited": "イベント配布",
 		"name": "鳳　朱華",
 		"nickname": "",
@@ -1287,7 +1144,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 30002,
 		"limited": "",
 		"name": "朧",
 		"nickname": "【嗤う邪悪】",
@@ -1296,7 +1152,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 30003,
 		"limited": "",
 		"name": "カリーナ・コクラン",
 		"nickname": "",
@@ -1305,7 +1160,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 30004,
 		"limited": "",
 		"name": "仲森　奈々華",
 		"nickname": "",
@@ -1314,7 +1168,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 33002,
 		"limited": "五車祭",
 		"name": "ユフィ＆ソフィ",
 		"nickname": "【双子の鬼娘】",
@@ -1323,7 +1176,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 31001,
 		"limited": "イベント配布",
 		"name": "エリカ・ブラックモア",
 		"nickname": "",
@@ -1332,7 +1184,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 31002,
 		"limited": "",
 		"name": "秋山　凜子",
 		"nickname": "【高嶺の花】",
@@ -1341,7 +1192,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 31003,
 		"limited": "",
 		"name": "神村　舞華",
 		"nickname": "【爆炎のギャル】",
@@ -1350,7 +1200,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 31004,
 		"limited": "",
 		"name": "喜瀬　蛍",
 		"nickname": "【清秋澄天】",
@@ -1359,7 +1208,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 34001,
 		"limited": "イベント配布",
 		"name": "アスタロト",
 		"nickname": "【獄炎の女王】",
@@ -1368,7 +1216,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 34002,
 		"limited": "",
 		"name": "井河　さくら",
 		"nickname": "【天真影傑】",
@@ -1377,7 +1224,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 34003,
 		"limited": "",
 		"name": "鷹司　みこと",
 		"nickname": "",
@@ -1386,7 +1232,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 34004,
 		"limited": "",
 		"name": "メリィ",
 		"nickname": "",
@@ -1395,7 +1240,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 35001,
 		"limited": "イベント配布",
 		"name": "心願寺　紅",
 		"nickname": "【ハロウィンナイト】",
@@ -1404,7 +1248,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 35002,
 		"limited": "イベント抽選",
 		"name": "鬼崎　きらら",
 		"nickname": "【ハロウィンヴァンパイア】",
@@ -1413,7 +1256,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 35003,
 		"limited": "イベント抽選",
 		"name": "ジェネラルハロウィン・ルネ",
 		"nickname": "",
@@ -1422,7 +1264,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 35004,
 		"limited": "イベント抽選",
 		"name": "ナディア",
 		"nickname": "【ハロウィン舞姫】",
@@ -1431,7 +1272,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 37001,
 		"limited": "イベント配布",
 		"name": "ふうま　亜希",
 		"nickname": "",
@@ -1440,7 +1280,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 37002,
 		"limited": "",
 		"name": "カウーラ",
 		"nickname": "",
@@ -1449,7 +1288,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 37003,
 		"limited": "",
 		"name": "クレハ",
 		"nickname": "",
@@ -1458,7 +1296,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 37004,
 		"limited": "",
 		"name": "ティナ・ウォーレル",
 		"nickname": "",
@@ -1467,7 +1304,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 39001,
 		"limited": "五車祭",
 		"name": "相州　蛇子",
 		"nickname": "",
@@ -1476,7 +1312,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 39002,
 		"limited": "五車祭",
 		"name": "上原　鹿之助",
 		"nickname": "",
@@ -1485,7 +1320,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 38001,
 		"limited": "イベント配布",
 		"name": "Ａ－６６・ルーナ",
 		"nickname": "",
@@ -1494,7 +1328,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 38002,
 		"limited": "",
 		"name": "穂稀　なお",
 		"nickname": "",
@@ -1503,7 +1336,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 38003,
 		"limited": "",
 		"name": "シアリー",
 		"nickname": "",
@@ -1512,7 +1344,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 38004,
 		"limited": "",
 		"name": "蓮魔　零子",
 		"nickname": "",
@@ -1521,7 +1352,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 41001,
 		"limited": "イベント配布",
 		"name": "黒田　巴",
 		"nickname": "",
@@ -1530,7 +1360,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 41002,
 		"limited": "",
 		"name": "ふうま　災禍",
 		"nickname": "【デート日和】",
@@ -1539,7 +1368,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 41003,
 		"limited": "",
 		"name": "磯咲　伊紀",
 		"nickname": "",
@@ -1548,7 +1376,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 41004,
 		"limited": "",
 		"name": "冬月　くるり",
 		"nickname": "",
@@ -1557,7 +1384,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 42001,
 		"limited": "イベント配布",
 		"name": "高坂　静流",
 		"nickname": "【聖夜の花】",
@@ -1566,7 +1392,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 42002,
 		"limited": "イベント抽選",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃のクリスマス】",
@@ -1575,7 +1400,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 42003,
 		"limited": "イベント抽選",
 		"name": "ユーリヤ",
 		"nickname": "【サンタメイド】",
@@ -1584,7 +1408,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 42004,
 		"limited": "イベント抽選",
 		"name": "アイナ・ウィンチェスター",
 		"nickname": "【眼帯サンタ】",
@@ -1593,7 +1416,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 43001,
 		"limited": "特典",
 		"name": "NO.16ソニア",
 		"nickname": "【C97】",
@@ -1602,7 +1424,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 44001,
 		"limited": "イベント配布",
 		"name": "リリス",
 		"nickname": "【初詣の魔女】",
@@ -1611,7 +1432,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 44002,
 		"limited": "イベント抽選",
 		"name": "井河　アサギ",
 		"nickname": "【対魔新年】",
@@ -1620,7 +1440,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 44003,
 		"limited": "イベント抽選",
 		"name": "レティシア",
 		"nickname": "【ニューイヤー】",
@@ -1629,7 +1448,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 44004,
 		"limited": "イベント抽選",
 		"name": "磯咲　伊織",
 		"nickname": "【新春恋色娘】",
@@ -1638,7 +1456,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 45001,
 		"limited": "イベント配布",
 		"name": "ふうま　天音",
 		"nickname": "【執事で対魔忍】",
@@ -1647,7 +1464,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 45002,
 		"limited": "",
 		"name": "フェリシア",
 		"nickname": "【真祖の血脈】",
@@ -1656,7 +1472,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 45003,
 		"limited": "",
 		"name": "クラクル",
 		"nickname": "【奔放猫娘】",
@@ -1665,7 +1480,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 45004,
 		"limited": "",
 		"name": "メイ",
 		"nickname": "",
@@ -1674,7 +1488,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 47001,
 		"limited": "イベント配布",
 		"name": "眞田　焔",
 		"nickname": "【槍炎の戦闘狂】",
@@ -1683,7 +1496,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 47002,
 		"limited": "",
 		"name": "八津　紫",
 		"nickname": "【淡き若紫】",
@@ -1692,7 +1504,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 47003,
 		"limited": "",
 		"name": "玉藻",
 		"nickname": "",
@@ -1701,7 +1512,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 47004,
 		"limited": "",
 		"name": "ルーラー",
 		"nickname": "",
@@ -1710,7 +1520,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 48001,
 		"limited": "イベント配布",
 		"name": "ミナサキ",
 		"nickname": "【イタズラチョコ娘】",
@@ -1719,7 +1528,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 48002,
 		"limited": "イベント抽選",
 		"name": "甲河　アスカ",
 		"nickname": "【バレンタイン】",
@@ -1728,7 +1536,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 48003,
 		"limited": "イベント抽選",
 		"name": "ミリアム",
 		"nickname": "【ＶＤラッピング】",
@@ -1737,7 +1544,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 48004,
 		"limited": "イベント抽選",
 		"name": "メルシー",
 		"nickname": "【ホットチョコ】",
@@ -1746,7 +1552,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 49001,
 		"limited": "イベント配布",
 		"name": "望月　卯奈",
 		"nickname": "",
@@ -1755,7 +1560,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 49002,
 		"limited": "",
 		"name": "ユーリ",
 		"nickname": "",
@@ -1764,7 +1568,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 49003,
 		"limited": "",
 		"name": "熱川　るみ",
 		"nickname": "",
@@ -1773,7 +1576,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 49004,
 		"limited": "",
 		"name": "カテジナ",
 		"nickname": "【呪われし美女】",
@@ -1782,7 +1584,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 50001,
 		"limited": "イベント配布",
 		"name": "すーぱーそに子",
 		"nickname": "",
@@ -1791,7 +1592,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 50002,
 		"limited": "イベント抽選",
 		"name": "井河　さくら",
 		"nickname": "【超音速ベーシスト】",
@@ -1800,7 +1600,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 50003,
 		"limited": "イベント抽選",
 		"name": "リーナ",
 		"nickname": "【a．k．a．嵐騎】",
@@ -1809,7 +1608,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 50004,
 		"limited": "イベント抽選",
 		"name": "ソニア",
 		"nickname": "【イメージガールな殺人鬼】",
@@ -1818,7 +1616,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 51001,
 		"limited": "五車祭",
 		"name": "七瀬　舞",
 		"nickname": "",
@@ -1827,7 +1624,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 51002,
 		"limited": "五車祭",
 		"name": "井河　アサギ",
 		"nickname": "【フル装備】",
@@ -1836,7 +1632,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 53001,
 		"limited": "イベント配布",
 		"name": "心願寺　紅",
 		"nickname": "【春の旋風】",
@@ -1845,7 +1640,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 53002,
 		"limited": "イベント抽選",
 		"name": "秋山　凜子",
 		"nickname": "【制服の斬鬼】",
@@ -1854,7 +1648,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 53003,
 		"limited": "イベント抽選",
 		"name": "セドナ・アルストナ",
 		"nickname": "【学園デビュー】",
@@ -1863,7 +1656,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 53004,
 		"limited": "イベント抽選",
 		"name": "篠原　まり",
 		"nickname": "【制服委員長】",
@@ -1872,7 +1664,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 54001,
 		"limited": "決戦ユニット",
 		"name": "対魔忍ライブラリー",
 		"nickname": "",
@@ -1881,7 +1672,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 55001,
 		"limited": "イベント配布",
 		"name": "井河　さくら",
 		"nickname": "【春の新作】",
@@ -1890,7 +1680,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 55002,
 		"limited": "",
 		"name": "死々村　孤路",
 		"nickname": "",
@@ -1899,7 +1688,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 55003,
 		"limited": "",
 		"name": "陳　春桃",
 		"nickname": "",
@@ -1908,7 +1696,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 55004,
 		"limited": "",
 		"name": "ミスティ",
 		"nickname": "【人恋し夢魔】",
@@ -1917,7 +1704,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 57001,
 		"limited": "イベント配布",
 		"name": "仲森　奈々華",
 		"nickname": "【猪突猛進】",
@@ -1926,7 +1712,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 57002,
 		"limited": "",
 		"name": "アイナ",
 		"nickname": "【ゼロレンジシューター】",
@@ -1935,7 +1720,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 57003,
 		"limited": "",
 		"name": "相馬　成美",
 		"nickname": "",
@@ -1944,7 +1728,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 57004,
 		"limited": "",
 		"name": "ゼシカ・ファルファー",
 		"nickname": "",
@@ -1953,7 +1736,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 58001,
 		"limited": "イベント配布",
 		"name": "ミレイユ",
 		"nickname": "【夢の中で】",
@@ -1962,7 +1744,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 58002,
 		"limited": "",
 		"name": "ユフィ＆ソフィ",
 		"nickname": "【一日対魔忍】",
@@ -1971,7 +1752,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 58003,
 		"limited": "",
 		"name": "陽炎",
 		"nickname": "",
@@ -1980,7 +1760,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 58004,
 		"limited": "",
 		"name": "マーガレット・リドリー",
 		"nickname": "",
@@ -1989,7 +1768,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 59001,
 		"limited": "決戦ユニット",
 		"name": "オーガ奴隷",
 		"nickname": "",
@@ -1998,7 +1776,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 60001,
 		"limited": "五車祭",
 		"name": "イングリッド",
 		"nickname": "【不滅の邪炎】",
@@ -2007,7 +1784,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 60002,
 		"limited": "五車祭",
 		"name": "天宮　紫水",
 		"nickname": "",
@@ -2016,7 +1792,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 62001,
 		"limited": "イベント配布",
 		"name": "アンジェ",
 		"nickname": "【お色直し】",
@@ -2025,7 +1800,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 62002,
 		"limited": "イベント抽選",
 		"name": "水城　ゆきかぜ",
 		"nickname": "【雷撃の花嫁】",
@@ -2034,7 +1808,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 62003,
 		"limited": "イベント抽選",
 		"name": "ふうま　災禍",
 		"nickname": "【花嫁秘書】",
@@ -2043,7 +1816,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 62004,
 		"limited": "イベント抽選",
 		"name": "由利　翡翠",
 		"nickname": "【ジェイドブライド】",
@@ -2052,7 +1824,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 63001,
 		"limited": "イベント配布",
 		"name": "ドナ・バロウズ",
 		"nickname": "【試験兵装】",
@@ -2061,7 +1832,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 63002,
 		"limited": "",
 		"name": "ブリュンヒルド",
 		"nickname": "",
@@ -2070,7 +1840,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 63003,
 		"limited": "",
 		"name": "フォルシア",
 		"nickname": "【隠遁バニー】",
@@ -2079,7 +1848,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 63004,
 		"limited": "",
 		"name": "葉月",
 		"nickname": "",
@@ -2088,7 +1856,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 64001,
 		"limited": "決戦ユニット",
 		"name": "ジュノ",
 		"nickname": "",
@@ -2097,7 +1864,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 66001,
 		"limited": "イベント配布",
 		"name": "磯咲　伊紀",
 		"nickname": "【ビーチの優等生】",
@@ -2106,7 +1872,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 66002,
 		"limited": "イベント抽選",
 		"name": "水城　不知火",
 		"nickname": "【ビーチな人妻】",
@@ -2115,7 +1880,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 66003,
 		"limited": "イベント抽選",
 		"name": "セシリア・チェロ",
 		"nickname": "【大波チョコ波】",
@@ -2124,7 +1888,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 66004,
 		"limited": "イベント抽選",
 		"name": "シュヴァリエ",
 		"nickname": "【賢者のバカンス】",
@@ -2133,7 +1896,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 67001,
 		"limited": "イベント配布",
 		"name": "クラクル",
 		"nickname": "【浜辺の猫】",
@@ -2142,7 +1904,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 67002,
 		"limited": "イベント抽選",
 		"name": "ふうま　時子",
 		"nickname": "【サマーバカンス】",
@@ -2151,7 +1912,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 67003,
 		"limited": "イベント抽選",
 		"name": "エレーナ",
 		"nickname": "【波際のまどろみ】",
@@ -2160,7 +1920,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 67004,
 		"limited": "イベント抽選",
 		"name": "レーベ・サフリー",
 		"nickname": "【望まぬ休暇】",
@@ -2169,7 +1928,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 68001,
 		"limited": "決戦ユニット",
 		"name": "土橋　権左",
 		"nickname": "",
@@ -2178,7 +1936,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 70001,
 		"limited": "イベント配布",
 		"name": "Ａ－６６・ルーナ",
 		"nickname": "【一般擬態モード】",
@@ -2187,7 +1944,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 70002,
 		"limited": "",
 		"name": "高坂　静流",
 		"nickname": "【夏の女教師】",
@@ -2196,7 +1952,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 70003,
 		"limited": "",
 		"name": "ナドラ",
 		"nickname": "【夏の魔眼】",
@@ -2205,7 +1960,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 70004,
 		"limited": "",
 		"name": "リーナ",
 		"nickname": "【サマーストーム】",
@@ -2214,7 +1968,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 71001,
 		"limited": "決戦ユニット",
 		"name": "八百比丘尼",
 		"nickname": "",
@@ -2223,7 +1976,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 72001,
 		"limited": "イベント配布",
 		"name": "ふうま　亜希",
 		"nickname": "【祭り装束】",
@@ -2232,7 +1984,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 72002,
 		"limited": "イベント抽選",
 		"name": "クローンアサギ",
 		"nickname": "【夏祭り】",
@@ -2241,7 +1992,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 72003,
 		"limited": "イベント抽選",
 		"name": "ナディア",
 		"nickname": "【祭りの後】",
@@ -2250,7 +2000,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 72004,
 		"limited": "イベント抽選",
 		"name": "ユーリヤ",
 		"nickname": "【浴衣メイド】",
@@ -2259,7 +2008,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 74001,
 		"limited": "イベント配布",
 		"name": "神村　舞華",
 		"nickname": "【バニー】",
@@ -2268,7 +2016,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 74002,
 		"limited": "",
 		"name": "鬼崎　きらら",
 		"nickname": "【バニー先輩】",
@@ -2277,7 +2024,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 74003,
 		"limited": "",
 		"name": "喜瀬　蛍",
 		"nickname": "【リバースバニー】",
@@ -2286,7 +2032,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 74004,
 		"limited": "",
 		"name": "星乃　深月",
 		"nickname": "【扇嵐バニー】",
@@ -2295,7 +2040,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 75001,
 		"limited": "決戦ユニット",
 		"name": "白きサキュバス",
 		"nickname": "",
@@ -2304,7 +2048,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 76001,
 		"limited": "イベント配布",
 		"name": "トラジロー",
 		"nickname": "",
@@ -2313,7 +2056,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 76002,
 		"limited": "",
 		"name": "鉄華院　カヲル",
 		"nickname": "",
@@ -2322,7 +2064,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 76003,
 		"limited": "",
 		"name": "詩嶋　麦",
 		"nickname": "",
@@ -2331,7 +2072,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 76004,
 		"limited": "",
 		"name": "リリノーエ",
 		"nickname": "",
@@ -2340,7 +2080,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 78001,
 		"limited": "五車祭",
 		"name": "アリシア・ビューストレーム",
 		"nickname": "",
@@ -2349,7 +2088,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 78002,
 		"limited": "五車祭",
 		"name": "マヤ・コーデリア",
 		"nickname": "",
@@ -2358,7 +2096,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 79001,
 		"limited": "イベント配布",
 		"name": "ブリジット",
 		"nickname": "【穢れ身の背徳】",
@@ -2367,7 +2104,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 79002,
 		"limited": "",
 		"name": "氷室　花蓮",
 		"nickname": "",
@@ -2376,7 +2112,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 79003,
 		"limited": "",
 		"name": "アイリーン・ウォルト",
 		"nickname": "",
@@ -2385,7 +2120,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 79004,
 		"limited": "",
 		"name": "長沼　美蔓",
 		"nickname": "",
@@ -2394,7 +2128,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 80001,
 		"limited": "イベント配布",
 		"name": "ジェネラルハロウィン・ルネ",
 		"nickname": "【再び見参！】",
@@ -2403,7 +2136,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 80002,
 		"limited": "イベント抽選",
 		"name": "相州　蛇子",
 		"nickname": "【ハロウィン】",
@@ -2412,7 +2144,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 80003,
 		"limited": "イベント抽選",
 		"name": "弓走　颯",
 		"nickname": "【堅物ハロウィン】",
@@ -2421,7 +2152,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 80004,
 		"limited": "イベント抽選",
 		"name": "ミナサキ",
 		"nickname": "【トリック＆トリック】",
@@ -2430,7 +2160,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 82001,
 		"limited": "イベント配布",
 		"name": "石川　あむ",
 		"nickname": "",
@@ -2439,7 +2168,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 82002,
 		"limited": "",
 		"name": "上原　鹿之助",
 		"nickname": "【仕来り】",
@@ -2448,7 +2176,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 82003,
 		"limited": "",
 		"name": "ユーリ",
 		"nickname": "【魅惑の眼差し】",
@@ -2457,7 +2184,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 82004,
 		"limited": "",
 		"name": "ファリーラ",
 		"nickname": "",
@@ -2466,7 +2192,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 83001,
 		"limited": "決戦ユニット",
 		"name": "黒騎　雫",
 		"nickname": "",
@@ -2475,7 +2200,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 84001,
 		"limited": "イベント配布",
 		"name": "フランシス",
 		"nickname": "【カチコミギャル】",
@@ -2484,7 +2208,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 84002,
 		"limited": "",
 		"name": "ナーサラ",
 		"nickname": "【フラフラ娘】",
@@ -2493,7 +2216,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 84003,
 		"limited": "",
 		"name": "掛原　鷹臣",
 		"nickname": "",
@@ -2502,7 +2224,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 84004,
 		"limited": "",
 		"name": "セルヴィア・ローザマリー",
 		"nickname": "",
@@ -2511,7 +2232,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 86001,
 		"limited": "五車祭",
 		"name": "大人ゆきかぜ",
 		"nickname": "",
@@ -2520,7 +2240,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 86002,
 		"limited": "五車祭",
 		"name": "若い天音",
 		"nickname": "",
@@ -2529,7 +2248,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 87001,
 		"limited": "イベント配布",
 		"name": "ミリアム",
 		"nickname": "【自己流女教師】",
@@ -2538,7 +2256,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 87002,
 		"limited": "",
 		"name": "ケイリー・マイヤーズ",
 		"nickname": "",
@@ -2547,7 +2264,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 87003,
 		"limited": "",
 		"name": "清水　神流",
 		"nickname": "【学園生活】",
@@ -2556,7 +2272,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 87004,
 		"limited": "",
 		"name": "櫛延　澄香",
 		"nickname": "",
@@ -2565,7 +2280,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 88001,
 		"limited": "イベント配布",
 		"name": "穂稀　なお",
 		"nickname": "【クリスマス】",
@@ -2574,7 +2288,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 88002,
 		"limited": "イベント抽選",
 		"name": "井河　さくら",
 		"nickname": "【Ｘｍａｓアルバイター】",
@@ -2583,7 +2296,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 88003,
 		"limited": "イベント抽選",
 		"name": "アンリード・ボニー",
 		"nickname": "【クリスマス】",
@@ -2592,7 +2304,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 88004,
 		"limited": "イベント抽選",
 		"name": "シアリー",
 		"nickname": "【耐聖夜】",
@@ -2601,7 +2312,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 91001,
 		"limited": "特典",
 		"name": "リリス",
 		"nickname": "【エアコミケ２】",
@@ -2610,7 +2320,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 92001,
 		"limited": "イベント配布",
 		"name": "槇島　あやめ",
 		"nickname": "【初春】",
@@ -2619,7 +2328,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 92002,
 		"limited": "イベント抽選",
 		"name": "秋山　凜子",
 		"nickname": "【丑年娘】",
@@ -2628,7 +2336,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 92003,
 		"limited": "イベント抽選",
 		"name": "玉藻",
 		"nickname": "【御利益稲荷？】",
@@ -2637,7 +2344,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 92004,
 		"limited": "イベント抽選",
 		"name": "熱川　るみ",
 		"nickname": "【お手伝い巫女さん】",
@@ -2646,7 +2352,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 93001,
 		"limited": "決戦ユニット",
 		"name": "ファウスト",
 		"nickname": "",
@@ -2655,7 +2360,6 @@
 	},
 	{
 		"attribute": "魔性",
-		"chara_id": 94001,
 		"limited": "イベント配布",
 		"name": "カウーラ",
 		"nickname": "【悪を狩る邪悪】",
@@ -2664,7 +2368,6 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 94002,
 		"limited": "",
 		"name": "ふうま　亜希",
 		"nickname": "【潜入装備】",
@@ -2673,7 +2376,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 94003,
 		"limited": "",
 		"name": "大島　雫",
 		"nickname": "【ちっぱい雫】",
@@ -2682,7 +2384,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 94004,
 		"limited": "",
 		"name": "セイロン",
 		"nickname": "",
@@ -2691,7 +2392,6 @@
 	},
 	{
 		"attribute": "自然",
-		"chara_id": 96001,
 		"limited": "イベント配布",
 		"name": "エレオノール",
 		"nickname": "",
@@ -2700,7 +2400,6 @@
 	},
 	{
 		"attribute": "超人",
-		"chara_id": 96002,
 		"limited": "",
 		"name": "井河　アサギ",
 		"nickname": "【無刀魔滅】",
@@ -2709,7 +2408,6 @@
 	},
 	{
 		"attribute": "科学",
-		"chara_id": 96003,
 		"limited": "",
 		"name": "ハウエラ・ヴィンセンス",
 		"nickname": "",
@@ -2718,11 +2416,42 @@
 	},
 	{
 		"attribute": "精神",
-		"chara_id": 96004,
 		"limited": "",
 		"name": "ふうま　廻",
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 426
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "ソニア",
+		"nickname": "【血塗れのバレンタイン】  ",
+		"rarity": "SR",
+		"unit_id": 427
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "天宮　紫水",
+		"nickname": "【バレンタイン】",
+		"rarity": "SR",
+		"unit_id": 428
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "ミレイユ",
+		"nickname": "【蕩けるチョコ】",
+		"rarity": "HR",
+		"unit_id": 429
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "エレーナ",
+		"nickname": "【ご奉仕シープ】",
+		"rarity": "R",
+		"unit_id": 430
 	}
 ]
