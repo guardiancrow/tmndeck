@@ -2453,5 +2453,45 @@
 		"nickname": "【ご奉仕シープ】",
 		"rarity": "R",
 		"unit_id": 430
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "ドロレス",
+		"nickname": "【脱部屋】",
+		"rarity": "SR",
+		"unit_id": 431
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "出雲　鶴",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 432
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "御影　小梅",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 433
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "シャオレイ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 434
+	},
+	{
+		"attribute": "超人",
+		"limited": "決戦ユニット",
+		"name": "ワーウルフ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7010
 	}
 ]
