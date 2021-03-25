@@ -2525,5 +2525,21 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 438
+	},
+	{
+		"attribute": "魔性",
+		"limited": "五車祭",
+		"name": "幻影不知火",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 439
+	},
+	{
+		"attribute": "魔性",
+		"limited": "五車祭",
+		"name": "心願寺　紅",
+		"nickname": "【覚醒】",
+		"rarity": "SR",
+		"unit_id": 440
 	}
 ]
