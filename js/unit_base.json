@@ -2541,5 +2541,37 @@
 		"nickname": "【覚醒】",
 		"rarity": "SR",
 		"unit_id": 440
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "相馬　成美",
+		"nickname": "【戦慄のチア】",
+		"rarity": "SR",
+		"unit_id": 441
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "朧",
+		"nickname": "【凄惨なる女王蜂】",
+		"rarity": "SR",
+		"unit_id": 442
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "メルシー",
+		"nickname": "【新生活応援】",
+		"rarity": "HR",
+		"unit_id": 443
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "メイ",
+		"nickname": "【やる気強要フォーム】",
+		"rarity": "R",
+		"unit_id": 444
 	}
 ]
