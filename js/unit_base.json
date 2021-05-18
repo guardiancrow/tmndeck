@@ -2605,5 +2605,77 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 451
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "由利　翡翠",
+		"nickname": "【翡色の疾風】",
+		"rarity": "SR",
+		"unit_id": 454
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "七瀬　舞",
+		"nickname": "【拘束の紙気】",
+		"rarity": "SR",
+		"unit_id": 455
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "アレクトラ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 456
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "セナ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 457
+	},
+	{
+		"attribute": "魔性",
+		"limited": "決戦ユニット",
+		"name": "篝",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7011
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "上月　佐那",
+		"nickname": "【ミストレス】",
+		"rarity": "SR",
+		"unit_id": 458
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "ケイリー・マイヤーズ",
+		"nickname": "【電遁乙女】",
+		"rarity": "SR",
+		"unit_id": 459
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "メルメ・エルヒェム",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 460
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "大林　あずき",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 461
 	}
 ]
