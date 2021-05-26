@@ -2677,5 +2677,21 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 461
+	},
+	{
+		"attribute": "科学",
+		"limited": "五車祭",
+		"name": "未来アスカ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 462
+	},
+	{
+		"attribute": "自然",
+		"limited": "五車祭",
+		"name": "上原　燐",
+		"nickname": "【雷轟電輝】",
+		"rarity": "SR",
+		"unit_id": 463
 	}
 ]
