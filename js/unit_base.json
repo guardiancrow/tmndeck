@@ -2693,5 +2693,69 @@
 		"nickname": "【雷轟電輝】",
 		"rarity": "SR",
 		"unit_id": 463
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "ジュノ",
+		"nickname": "【女神に祝福を】",
+		"rarity": "SR",
+		"unit_id": 467
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "相州　蛇子",
+		"nickname": "【６月の花嫁】",
+		"rarity": "SR",
+		"unit_id": 468
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "喜瀬　蛍",
+		"nickname": "【学生新妻】",
+		"rarity": "HR",
+		"unit_id": 469
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "ユーリヤ",
+		"nickname": "【花嫁メイド】",
+		"rarity": "R",
+		"unit_id": 470
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "リノア・セリング",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 473
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "リーナ",
+		"nickname": "【百花繚嵐】",
+		"rarity": "SR",
+		"unit_id": 474
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "天野　レナ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 475
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "琴ノ葉　暦末",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 476
 	}
 ]
