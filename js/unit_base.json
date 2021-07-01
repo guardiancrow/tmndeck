@@ -2757,5 +2757,45 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 476
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "ハツカゼ",
+		"nickname": "【海辺のつよつよヤタガラス】",
+		"rarity": "SR",
+		"unit_id": 477
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "大人ゆきかぜ",
+		"nickname": "【水着】",
+		"rarity": "SR",
+		"unit_id": 478
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "レティシア",
+		"nickname": "【プールサイドミストレス】",
+		"rarity": "HR",
+		"unit_id": 479
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "仲森　奈々華",
+		"nickname": "【熱血ビーチ】",
+		"rarity": "R",
+		"unit_id": 480
+	},
+	{
+		"attribute": "自然",
+		"limited": "決戦ユニット",
+		"name": "鬼蜘蛛三郎",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7012
 	}
 ]
