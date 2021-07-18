@@ -2797,5 +2797,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7012
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "黒田 　巴",
+		"nickname": "【スイムスーツ】",
+		"rarity": "SR",
+		"unit_id": 484
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "上原　鹿之助",
+		"nickname": "【水着】",
+		"rarity": "SR",
+		"unit_id": 485
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "ココア・ラピュセル",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 486
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "藍野　のぞみ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 487
 	}
 ]
