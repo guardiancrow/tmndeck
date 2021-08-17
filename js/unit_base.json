@@ -2861,5 +2861,37 @@
 		"nickname": "【夏の百人斬り】",
 		"rarity": "R",
 		"unit_id": 494
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "高坂　静流",
+		"nickname": "【常夏バニー】",
+		"rarity": "SR",
+		"unit_id": 495
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "イングリッド",
+		"nickname": "【兎装の魔界騎士】",
+		"rarity": "SR",
+		"unit_id": 496
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "ふうま　災禍",
+		"nickname": "【ラグジュアバニー】",
+		"rarity": "HR",
+		"unit_id": 497
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "リリノーエ",
+		"nickname": "【霧中の兎】",
+		"rarity": "R",
+		"unit_id": 498
 	}
 ]
