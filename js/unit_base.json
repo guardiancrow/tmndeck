@@ -2893,5 +2893,45 @@
 		"nickname": "【霧中の兎】",
 		"rarity": "R",
 		"unit_id": 498
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "アンジェ",
+		"nickname": "【テンタクルディアンドル】",
+		"rarity": "SR",
+		"unit_id": 501
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "ふうま　天音",
+		"nickname": "【鍛錬】",
+		"rarity": "SR",
+		"unit_id": 502
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "持田　めぐみ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 503
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "スン・ウーヤン",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 504
+	},
+	{
+		"attribute": "魔性",
+		"limited": "決戦ユニット",
+		"name": "アンブローズ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7013
 	}
 ]
