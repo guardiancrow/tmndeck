@@ -2933,5 +2933,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7013
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "セルヴィア・ローザマリー",
+		"nickname": "【プリティローズ】",
+		"rarity": "SR",
+		"unit_id": 505
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "ワイト",
+		"nickname": "【死霊騎士】",
+		"rarity": "SR",
+		"unit_id": 506
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "モニカ・ロレンス",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 507
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "八代　桃香",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 508
 	}
 ]
