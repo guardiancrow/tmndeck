@@ -2965,5 +2965,21 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 508
+	},
+	{
+		"attribute": "精神",
+		"limited": "五車祭",
+		"name": "アスカ＆きらら先輩",
+		"nickname": "【真夏の美女】",
+		"rarity": "SR",
+		"unit_id": 509
+	},
+	{
+		"attribute": "科学",
+		"limited": "五車祭",
+		"name": "舞華姐さん",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 510
 	}
 ]
