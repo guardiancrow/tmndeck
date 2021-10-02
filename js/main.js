@@ -24,9 +24,9 @@ $(document).ready(function() {
 		"none"
 	];
 
-	const rot_sr = 0.0006;
-	const rot_hr = 0.0019;
-	const rot_r = 0.0153;
+	const rot_sr = 0.0005;
+	const rot_hr = 0.0016;
+	const rot_r = 0.0126;
 	var rot_user = 0;
 	var times_user = 100;
 	var sort_option = 'id';
@@ -1069,7 +1069,7 @@ $(document).ready(function() {
 		cardheader.append(h3);
 		cardbody.append('<h4>所有概要（恒常のみ）</h4>');
 		cardbody.append(table);
-		cardbody.append('<p class="small text-muted">所有／実装済み</p>');
+		cardbody.append('<p class="small text-muted">所有／実装済み（属性選択ガチャの目安に）</p>');
 
 		table = buildTrainingTable(data);
 		cardbody.append('<h4>育成概要</h4>');

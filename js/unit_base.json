@@ -2981,5 +2981,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 510
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "ミリアム",
+		"nickname": "【儀式装束】",
+		"rarity": "SR",
+		"unit_id": 513
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "クローンアサギ",
+		"nickname": "【探偵の休日】",
+		"rarity": "SR",
+		"unit_id": 514
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "イスカ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 515
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "ロセリナ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 516
 	}
 ]
