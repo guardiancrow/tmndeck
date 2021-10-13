@@ -32,6 +32,9 @@ $(document).ready(function() {
 	var sort_option = 'id';
 	var hideUnowned = false;
 	var hideMaxed = false;
+	const boxevent_rate_u5 = 5.70;
+	//const boxevent_rate_u4 = 5.11;
+	//const boxevent_rate_s5 = 4.70;
 
 	var vaildData = function(data) {
 		if (!data) {
@@ -907,6 +910,14 @@ $(document).ready(function() {
 		return container;
 	}
 
+	var buildBoxEventAnalyzeContainer = function(data) {
+		var container = $('<div id="BoxEventAnalyzeContainer"></div>');
+		var canvas = $('<canvas id="BoxEventChart"></canvas>');
+		container.append(canvas);
+
+		return container;
+	}
+
 	var drawRotChart = function() {
 		var canvas = $('#RotChart');
 		canvas.empty();
@@ -1027,6 +1038,79 @@ $(document).ready(function() {
 		window.RotChart.update();
 	}
 
+	var drawBoxEventChart = function() {
+		var canvas = $('#BoxEventChart');
+		canvas.empty();
+
+		var datapoints_u5_single = [];
+		var datapoints_u5_eleven = [];
+
+		for (var i = 1; i <= 131; i+=5) {
+			var posion_s = Math.ceil((i + 30) / 4.0) * boxevent_rate_u5;
+			var posion_m = Math.ceil((i + 30) / 2.0) * boxevent_rate_u5;
+			var posion_l = (i + 30) * boxevent_rate_u5;
+
+			datapoints_u5_single.push(-(5000 - posion_s - posion_m - (posion_l * 6.0)) / boxevent_rate_u5);
+			datapoints_u5_eleven.push(-(5000 - posion_s - posion_m - (posion_l * (1 + 50.0 / 11.0))) / boxevent_rate_u5);
+		}
+
+		var datasets = null;
+		var labels = [];
+		for (var i = 1; i <= 131; i+=5) {
+			labels.push(i);
+		}
+
+		datasets = [{
+			label: '超上級５('+ boxevent_rate_u5 +'ミニチケ/AP)：プレチケ１≒石５',
+			data: datapoints_u5_single,
+			borderColor: 'rgb(255, 99, 132)',
+			backgroundColor: 'rgba(0, 0, 0, 0)',
+			fill: false,
+		}, {
+			label: '超上級５('+ boxevent_rate_u5 +'ミニチケ/AP)：プレチケ11≒石50',
+			data: datapoints_u5_eleven,
+			borderColor: 'rgb(255, 159, 64)',
+			backgroundColor: 'rgba(0, 0, 0, 0)',
+			fill: false,
+		}];
+
+		window.BoxEventChart = new Chart(canvas, {
+			type: 'line',
+			data: {
+				labels: labels,
+				datasets: datasets,
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: '箱イベントで『黒字』になるランク'
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'ランク'
+						}
+					}],
+					yAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'AP効率'
+						},
+						ticks: {
+							suggestedMin: -600,
+							suggestedMax: 200,
+						}
+					}]
+				}
+			}
+		});
+		window.BoxEventChart.update();
+	}
+
 	var renderOverview = function(data) {
 		if (data == null) {
 			return;
@@ -1142,6 +1226,13 @@ $(document).ready(function() {
 		cardbody.append('<h4>お迎え確率</h4>');
 		cardbody.append(table);
 		cardbody.append('<p class="small text-muted">ピックアップ無しの確率はプレミアムガチャの確率です</p>');
+
+		table = buildBoxEventAnalyzeContainer(data);
+		cardbody.append('<hr>');
+		cardbody.append('<h4>箱イベント効率</h4>');
+		cardbody.append(table);
+		cardbody.append('<p class="small text-muted">ボックス９以降で箱の報酬をすべて使い、かつ、ガチャ使用相当の石をAP回復大に交換して使用した場合です<br>つまりAP回復小１・AP回復中１と、AP回復大を単発ガチャ換算と11連ガチャ換算の石で使用したときの収支です<br>超上級５（リーダーラック100）の場合、単発ガチャ換算ですとランク100以上で、11連換算ですとランク110以上で黒字が期待できます</p>');
+
 		collapse.append(cardbody);
 		card.append(cardheader);
 		card.append(collapse);
@@ -1437,6 +1528,7 @@ $(document).ready(function() {
 
 	$(document).on('shown.bs.collapse', '#collapse_analyze', function() {
 		drawRotChart();
+		drawBoxEventChart();
 	})
 
 	$(document).on('click', '#user_rot_button', function() {
