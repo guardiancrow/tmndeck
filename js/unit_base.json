@@ -3013,5 +3013,37 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 516
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "清水　神流",
+		"nickname": "【フローズンデビル】",
+		"rarity": "SR",
+		"unit_id": 517
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "八津　紫",
+		"nickname": "【パープルデビル】",
+		"rarity": "SR",
+		"unit_id": 518
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "シュヴァリエ",
+		"nickname": "【ハロウィンの賢者】",
+		"rarity": "HR",
+		"unit_id": 519
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "ジェネラルハロウィン・ルネ",
+		"nickname": "【心堅石穿】",
+		"rarity": "R",
+		"unit_id": 520
 	}
 ]

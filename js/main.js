@@ -1050,8 +1050,8 @@ $(document).ready(function() {
 			var posion_m = Math.ceil((i + 30) / 2.0) * boxevent_rate_u5;
 			var posion_l = (i + 30) * boxevent_rate_u5;
 
-			datapoints_u5_single.push(-(5000 - posion_s - posion_m - (posion_l * 6.0)) / boxevent_rate_u5);
-			datapoints_u5_eleven.push(-(5000 - posion_s - posion_m - (posion_l * (1 + 50.0 / 11.0))) / boxevent_rate_u5);
+			datapoints_u5_single.push((-(5000 - posion_s - posion_m - (posion_l * 6.0)) / boxevent_rate_u5).toFixed(2));
+			datapoints_u5_eleven.push((-(5000 - posion_s - posion_m - (posion_l * (1 + 50.0 / 11.0))) / boxevent_rate_u5).toFixed(2));
 		}
 
 		var datasets = null;
