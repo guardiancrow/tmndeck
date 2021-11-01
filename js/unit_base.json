@@ -3045,5 +3045,45 @@
 		"nickname": "【心堅石穿】",
 		"rarity": "R",
 		"unit_id": 520
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "竜宮　ハイリ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 521
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "リリス",
+		"nickname": "【クラシックメイドウィッチ】",
+		"rarity": "SR",
+		"unit_id": 522
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "ビルヴァ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 523
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "朝比奈　逸華",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 524
+	},
+	{
+		"attribute": "科学",
+		"limited": "決戦ユニット",
+		"name": "ＳＢ‐００１炎王",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7007
 	}
 ]
