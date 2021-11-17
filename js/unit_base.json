@@ -3085,5 +3085,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7007
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "冬月　くるり",
+		"nickname": "【魔炎軍師】",
+		"rarity": "SR",
+		"unit_id": 525
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "エリカ・ブラックモア",
+		"nickname": "【気ままな傭兵】",
+		"rarity": "SR",
+		"unit_id": 526
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "ヴァイオラ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 527
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "アル・リンジー",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 528
 	}
 ]
