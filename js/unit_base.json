@@ -3117,5 +3117,21 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 528
+	},
+	{
+		"attribute": "超人",
+		"limited": "五車祭",
+		"name": "氷神きらら",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 529
+	},
+	{
+		"attribute": "精神",
+		"limited": "五車祭",
+		"name": "覚醒リリム",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 530
 	}
 ]
