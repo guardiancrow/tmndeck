@@ -3133,5 +3133,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 530
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "霧原　純子",
+		"nickname": "【静謐なる雷光】",
+		"rarity": "SR",
+		"unit_id": 533
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "アンネローゼ・ヴァジュラ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 534
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "佐久　かなめ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 535
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "皆瀬　もみじ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 536
 	}
 ]
