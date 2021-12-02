@@ -1045,18 +1045,18 @@ $(document).ready(function() {
 		var datapoints_u5_single = [];
 		var datapoints_u5_eleven = [];
 
-		for (var i = 1; i <= 131; i+=5) {
+		for (var i = 1; i <= 201; i+=5) {
 			var posion_s = Math.ceil((i + 30) / 4.0) * boxevent_rate_u5;
 			var posion_m = Math.ceil((i + 30) / 2.0) * boxevent_rate_u5;
 			var posion_l = (i + 30) * boxevent_rate_u5;
 
-			datapoints_u5_single.push((-(5000 - posion_s - posion_m - (posion_l * 6.0)) / boxevent_rate_u5).toFixed(2));
-			datapoints_u5_eleven.push((-(5000 - posion_s - posion_m - (posion_l * (1 + 50.0 / 11.0))) / boxevent_rate_u5).toFixed(2));
+			datapoints_u5_single.push((-(8000 - posion_s - posion_m - (posion_l * 6.0)) / boxevent_rate_u5).toFixed(2));
+			datapoints_u5_eleven.push((-(8000 - posion_s - posion_m - (posion_l * (1 + 50.0 / 11.0))) / boxevent_rate_u5).toFixed(2));
 		}
 
 		var datasets = null;
 		var labels = [];
-		for (var i = 1; i <= 131; i+=5) {
+		for (var i = 1; i <= 201; i+=5) {
 			labels.push(i);
 		}
 
@@ -1232,6 +1232,7 @@ $(document).ready(function() {
 		cardbody.append('<h4>箱イベント効率</h4>');
 		cardbody.append(table);
 		cardbody.append('<p class="small text-muted">ボックス９以降で箱の報酬をすべて使い、かつ、ガチャ使用相当の石をAP回復大に交換して使用した場合です<br>つまりAP回復小１・AP回復中１と、AP回復大を単発ガチャ換算と11連ガチャ換算の石で使用したときの収支です<br>超上級５（リーダーラック100）の場合、単発ガチャ換算ですとランク100以上で、11連換算ですとランク110以上で黒字が期待できます</p>');
+		cardbody.append('<p class="small text-muted">追記：ご承知の通り、仕様が変わりまして単発ガチャ換算ですとランク173以上、11連換算ですとランク193以上となりました</p>');
 
 		collapse.append(cardbody);
 		card.append(cardheader);
