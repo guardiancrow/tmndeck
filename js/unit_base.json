@@ -3165,5 +3165,37 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 536
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "眞田　焔",
+		"nickname": "【炎のクリスマス】",
+		"rarity": "SR",
+		"unit_id": 538
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "ユーリ",
+		"nickname": "【クリスマス】",
+		"rarity": "SR",
+		"unit_id": 539
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "セシリア・チェロ",
+		"nickname": "【めりーチョコります！】",
+		"rarity": "HR",
+		"unit_id": 540
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "メリィ",
+		"nickname": "【メリィクリスマス】",
+		"rarity": "R",
+		"unit_id": 541
 	}
 ]
