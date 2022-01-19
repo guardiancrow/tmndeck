@@ -3197,5 +3197,77 @@
 		"nickname": "【メリィクリスマス】",
 		"rarity": "R",
 		"unit_id": 541
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "ミラベル・ベル",
+		"nickname": "【正月】",
+		"rarity": "SR",
+		"unit_id": 544
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "水城　ゆきかぜ",
+		"nickname": "【正月】",
+		"rarity": "SR",
+		"unit_id": 545
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "エレーナ",
+		"nickname": "【プリーステスシープ】",
+		"rarity": "HR",
+		"unit_id": 546
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "セナ",
+		"nickname": "【年越しレース】",
+		"rarity": "R",
+		"unit_id": 547
+	},
+	{
+		"attribute": "超人",
+		"limited": "決戦ユニット",
+		"name": "アルフォンス",
+		"nickname": "",
+		"rarity": "LR",
+		"unit_id": 7014
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "カリナ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 548
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "柳　六穂",
+		"nickname": "【毒獄の女王】",
+		"rarity": "SR",
+		"unit_id": 549
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "疾風　亜矢子",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 550
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "藤嶺　明華",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 551
 	}
 ]
