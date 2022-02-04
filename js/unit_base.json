@@ -3269,5 +3269,37 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 551
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "フェルマ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 552
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "井河　扇舟",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 553
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "林崎　宮子",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 554
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "眞田　咲",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 555
 	}
 ]
