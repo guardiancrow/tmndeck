@@ -3301,5 +3301,37 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 555
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "ユフィ＆ソフィ",
+		"nickname": "【ビター＆スイート】",
+		"rarity": "SR",
+		"unit_id": 556
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "若い時子",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 557
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "ドナ・バロウズ",
+		"nickname": "【手作りチョコ】",
+		"rarity": "HR",
+		"unit_id": 558
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "掛原　鷹臣",
+		"nickname": "【ＶＤ配信】",
+		"rarity": "R",
+		"unit_id": 559
 	}
 ]
