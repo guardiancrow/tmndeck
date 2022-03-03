@@ -3333,5 +3333,45 @@
 		"nickname": "【ＶＤ配信】",
 		"rarity": "R",
 		"unit_id": 559
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "磯咲　伊織",
+		"nickname": "【対魔忍メイド】",
+		"rarity": "SR",
+		"unit_id": 560
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "クリア",
+		"nickname": "【水城家の居候】",
+		"rarity": "SR",
+		"unit_id": 561
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "クラクル",
+		"nickname": "【猫耳メイド】",
+		"rarity": "HR",
+		"unit_id": 562
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "アレクトラ",
+		"nickname": "【電撃折檻】",
+		"rarity": "R",
+		"unit_id": 563
+	},
+	{
+		"attribute": "自然",
+		"limited": "決戦ユニット",
+		"name": "葉取　星舟",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7015
 	}
 ]
