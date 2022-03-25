@@ -3373,5 +3373,53 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7015
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "カリン・ブランフォード",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 564
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "ファンタスマ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 565
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "巫部　楓葉",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 566
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "アレッキィ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 567
+	},
+	{
+		"attribute": "超人",
+		"limited": "五車祭",
+		"name": "まり首領",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 568
+	},
+	{
+		"attribute": "魔性",
+		"limited": "五車祭",
+		"name": "魔神蛇子さま",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 569
 	}
 ]
