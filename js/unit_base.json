@@ -3421,5 +3421,37 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 569
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "玉藻",
+		"nickname": "【傾国のチア】",
+		"rarity": "SR",
+		"unit_id": 570
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "甲河　アスカ",
+		"nickname": "【高機動チア兵装】",
+		"rarity": "SR",
+		"unit_id": 571
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "ミナサキ",
+		"nickname": "【応援屋】",
+		"rarity": "HR",
+		"unit_id": 572
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "日ノ出　陽葵",
+		"nickname": "【サンライズチアー】",
+		"rarity": "R",
+		"unit_id": 573
 	}
 ]
