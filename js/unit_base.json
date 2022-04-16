@@ -3453,5 +3453,37 @@
 		"nickname": "【サンライズチアー】",
 		"rarity": "R",
 		"unit_id": 573
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "ミシェア・シルキース",
+		"nickname": "【ザ・ヒーロー】",
+		"rarity": "SR",
+		"unit_id": 574
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "トラジロー",
+		"nickname": "【旗袍】",
+		"rarity": "SR",
+		"unit_id": 575
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "サリー・ロバーツ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 576
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "エルヴィーラ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 577
 	}
 ]
