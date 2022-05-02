@@ -3485,5 +3485,45 @@
 		"nickname": "",
 		"rarity": "R",
 		"unit_id": 577
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "メルシー",
+		"nickname": "【ヴォラードソワレ】",
+		"rarity": "SR",
+		"unit_id": 578
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "心願寺　紅",
+		"nickname": "【恋の夜会】",
+		"rarity": "SR",
+		"unit_id": 579
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "星乃　深月",
+		"nickname": "【夜会の涼風】",
+		"rarity": "HR",
+		"unit_id": 580
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "鉄華院　カヲル",
+		"nickname": "【夜に薫る華】",
+		"rarity": "R",
+		"unit_id": 581
+	},
+	{
+		"attribute": "精神",
+		"limited": "決戦ユニット",
+		"name": "イシュタル",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7016
 	}
 ]
