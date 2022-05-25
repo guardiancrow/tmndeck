@@ -3525,5 +3525,53 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7016
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "速水　心寧",
+		"nickname": "【初夏の勝負服】",
+		"rarity": "SR",
+		"unit_id": 582
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "イングリッド",
+		"nickname": "【敏腕秘書】",
+		"rarity": "SR",
+		"unit_id": 583
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "リーナ",
+		"nickname": "【下積み】",
+		"rarity": "HR",
+		"unit_id": 584
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "シャロン・オルレアス",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 585
+	},
+	{
+		"attribute": "魔性",
+		"limited": "五車祭",
+		"name": "鬼神　凜子",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 586
+	},
+	{
+		"attribute": "科学",
+		"limited": "五車祭",
+		"name": "沙耶ＮＥＯ",
+		"nickname": "【むじゃき娘】",
+		"rarity": "SR",
+		"unit_id": 587
 	}
 ]
