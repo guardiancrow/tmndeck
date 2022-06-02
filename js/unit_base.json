@@ -3573,5 +3573,37 @@
 		"nickname": "【むじゃき娘】",
 		"rarity": "SR",
 		"unit_id": 587
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "ブリジット",
+		"nickname": "【花嫁妖狐】",
+		"rarity": "SR",
+		"unit_id": 588
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "井河　アサギ",
+		"nickname": "【６月の花嫁】",
+		"rarity": "SR",
+		"unit_id": 589
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "リノア・セリング",
+		"nickname": "【幸福な未来】",
+		"rarity": "HR",
+		"unit_id": 590
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "八代　桃香",
+		"nickname": "【めちゃ映え花嫁】",
+		"rarity": "R",
+		"unit_id": 591
 	}
 ]
