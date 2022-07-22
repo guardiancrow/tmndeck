@@ -3605,5 +3605,109 @@
 		"nickname": "【めちゃ映え花嫁】",
 		"rarity": "R",
 		"unit_id": 591
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "チアル",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 592
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "鬼壱　あずさ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 593
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "七宝　八重",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 594
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "ミュルヌ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 595
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "人外のお諒",
+		"nickname": "【水着】",
+		"rarity": "SR",
+		"unit_id": 596
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "覚醒リリム",
+		"nickname": "【渚の魔王娘】",
+		"rarity": "SR",
+		"unit_id": 597
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "清水　神流",
+		"nickname": "【涼風流々】",
+		"rarity": "HR",
+		"unit_id": 598
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "霧原　純子",
+		"nickname": "【束の間の休暇】",
+		"rarity": "R",
+		"unit_id": 599
+	},
+	{
+		"attribute": "魔性",
+		"limited": "決戦ユニット",
+		"name": "フェンリル",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7017
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "アレッキィ",
+		"nickname": "【ドリームスプラッシャー】",
+		"rarity": "SR",
+		"unit_id": 600
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "高坂　静流",
+		"nickname": "【濡れし艶花】",
+		"rarity": "SR",
+		"unit_id": 601
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "セルヴィア・ローザマリー",
+		"nickname": "【波際ローズ】",
+		"rarity": "HR",
+		"unit_id": 602
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "カリン・ブランフォード",
+		"nickname": "【夏☆モード】",
+		"rarity": "R",
+		"unit_id": 603
 	}
 ]
