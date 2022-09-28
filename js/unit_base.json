@@ -3709,5 +3709,165 @@
 		"nickname": "【夏☆モード】",
 		"rarity": "R",
 		"unit_id": 603
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "ロベルタ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 604
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "レヴィ",
+		"nickname": "【対魔忍】",
+		"rarity": "SR",
+		"unit_id": 605
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "バラライカ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 606
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "心願寺　紅",
+		"nickname": "【BLACK LAGOON】",
+		"rarity": "HR",
+		"unit_id": 607
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "死々村　孤路",
+		"nickname": "【BLACK LAGOON】",
+		"rarity": "R",
+		"unit_id": 608
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "信楽　まめ",
+		"nickname": "【ぽんぽこバニー？】",
+		"rarity": "SR",
+		"unit_id": 609
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "天宮　紫水",
+		"nickname": "【バニー】",
+		"rarity": "SR",
+		"unit_id": 610
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "詩嶋　麦",
+		"nickname": "【ラビットフォーム】",
+		"rarity": "HR",
+		"unit_id": 611
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "ティナ・ウォーレル",
+		"nickname": "【仮入部ウサギ隊】",
+		"rarity": "R",
+		"unit_id": 612
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "石神井　爽美",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 613
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "舞華姐さん",
+		"nickname": "【RONIN】",
+		"rarity": "SR",
+		"unit_id": 614
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "飴谷　しいな",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 615
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "弥生",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 616
+	},
+	{
+		"attribute": "科学",
+		"limited": "決戦ユニット",
+		"name": "メカジロー",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7018
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント配布",
+		"name": "機装災禍",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 617
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "フランシス",
+		"nickname": "【荒野の鬼ギャル】",
+		"rarity": "SR",
+		"unit_id": 618
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "レピタ・リッチスター",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 619
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "エレ・アンスタン",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 620
+	},
+	{
+		"attribute": "科学",
+		"limited": "五車祭",
+		"name": "若きアサギ＆サクラレディ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 621
+	},
+	{
+		"attribute": "超人",
+		"limited": "五車祭",
+		"name": "風神アスカ＆雷神ゆきかぜ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 622
 	}
 ]
