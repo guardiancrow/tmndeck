@@ -3973,5 +3973,53 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7019
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "ココア・ラピュセル",
+		"nickname": "【魔（法少）女】",
+		"rarity": "SR",
+		"unit_id": 635
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "ドロレス",
+		"nickname": "【ぬくぬく引きこもり】",
+		"rarity": "SR",
+		"unit_id": 636
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "ビルヴァ",
+		"nickname": "【忌まわしき戦装束】",
+		"rarity": "HR",
+		"unit_id": 637
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "マーガレット・リドリー",
+		"nickname": "【フロントライン】",
+		"rarity": "R",
+		"unit_id": 638
+	},
+	{
+		"attribute": "自然",
+		"limited": "五車祭",
+		"name": "幻影の魔女",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 639
+	},
+	{
+		"attribute": "精神",
+		"limited": "五車祭",
+		"name": "ふうま　亜希",
+		"nickname": "【彼岸に咲け】",
+		"rarity": "SR",
+		"unit_id": 640
 	}
 ]
