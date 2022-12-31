@@ -4021,5 +4021,77 @@
 		"nickname": "【彼岸に咲け】",
 		"rarity": "SR",
 		"unit_id": 640
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "鞍橋　ほくと",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 641
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "神村　東",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 642
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "ムルシェ",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 643
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "一文字　魅衣子",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 644
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "御影　小梅",
+		"nickname": "【影遁使いのX'mas】",
+		"rarity": "SR",
+		"unit_id": 645
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "鬼崎　きらら",
+		"nickname": "【クリスマス】",
+		"rarity": "SR",
+		"unit_id": 646
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "ハツカゼ",
+		"nickname": "【聖夜の爆撃ガラス】",
+		"rarity": "HR",
+		"unit_id": 647
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "リリノーエ",
+		"nickname": "【霧誘う聖夜】",
+		"rarity": "R",
+		"unit_id": 648
+	},
+	{
+		"attribute": "精神",
+		"limited": "特典",
+		"name": "水城　ゆきかぜ",
+		"nickname": "【おめでたいまにん】",
+		"rarity": "SR",
+		"unit_id": 5001
 	}
 ]
