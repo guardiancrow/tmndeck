@@ -4093,5 +4093,45 @@
 		"nickname": "【おめでたいまにん】",
 		"rarity": "SR",
 		"unit_id": 5001
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "望月　卯奈",
+		"nickname": "【卯年の餅つき】",
+		"rarity": "SR",
+		"unit_id": 649
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "魔神蛇子さま",
+		"nickname": "【正月】",
+		"rarity": "SR",
+		"unit_id": 650
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント抽選",
+		"name": "蓮魔　零子",
+		"nickname": "【破邪魔弓】",
+		"rarity": "HR",
+		"unit_id": 651
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "メルメ・エルヒェム",
+		"nickname": "【千両若菜】",
+		"rarity": "R",
+		"unit_id": 652
+	},
+	{
+		"attribute": "超人",
+		"limited": "決戦ユニット",
+		"name": "白熊タロー",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 7020
 	}
 ]
