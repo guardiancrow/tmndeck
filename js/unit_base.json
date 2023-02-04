@@ -4133,5 +4133,69 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 7020
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "リューリ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 653
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "双葉・リリー・ラムセス",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 654
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "薬師寺　瑞穂",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 655
+	},
+	{
+		"attribute": "超人",
+		"limited": "",
+		"name": "板知屋　小町",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 656
+	},
+	{
+		"attribute": "超人",
+		"limited": "イベント配布",
+		"name": "陳　春桃",
+		"nickname": "【情人節】",
+		"rarity": "SR",
+		"unit_id": 657
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "クローンアサギ",
+		"nickname": "【バレンタイン】",
+		"rarity": "SR",
+		"unit_id": 658
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント抽選",
+		"name": "メリィ",
+		"nickname": "【恋の呪い師】",
+		"rarity": "HR",
+		"unit_id": 659
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "Ａ－６６・ルーナ",
+		"nickname": "【Ｖ－アルテミス】",
+		"rarity": "R",
+		"unit_id": 660
 	}
 ]
