@@ -4197,5 +4197,77 @@
 		"nickname": "【Ｖ－アルテミス】",
 		"rarity": "R",
 		"unit_id": 660
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント配布",
+		"name": "新鋭カヲル",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 661
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "アスタロト",
+		"nickname": "【冬獄炎】",
+		"rarity": "SR",
+		"unit_id": 662
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "霧霞　律芭",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 663
+	},
+	{
+		"attribute": "自然",
+		"limited": "",
+		"name": "シキミ",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 664
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント配布",
+		"name": "石川　あむ",
+		"nickname": "【壁の石華】",
+		"rarity": "SR",
+		"unit_id": 665
+	},
+	{
+		"attribute": "自然",
+		"limited": "イベント抽選",
+		"name": "大人ゆきかぜ",
+		"nickname": "【夜会ドレス】",
+		"rarity": "SR",
+		"unit_id": 666
+	},
+	{
+		"attribute": "精神",
+		"limited": "イベント抽選",
+		"name": "シアリー",
+		"nickname": "【機械仕掛けの悪役令嬢】",
+		"rarity": "HR",
+		"unit_id": 667
+	},
+	{
+		"attribute": "科学",
+		"limited": "イベント抽選",
+		"name": "アンリード・ボニー",
+		"nickname": "【弾丸舞踏】",
+		"rarity": "R",
+		"unit_id": 668
+	},
+	{
+		"attribute": "魔性",
+		"limited": "決戦ユニット",
+		"name": "二車　骸佐",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 6101
 	}
 ]
