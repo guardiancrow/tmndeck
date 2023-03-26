@@ -4269,5 +4269,53 @@
 		"nickname": "",
 		"rarity": "SR",
 		"unit_id": 6101
+	},
+	{
+		"attribute": "魔性",
+		"limited": "イベント配布",
+		"name": "リリス",
+		"nickname": "【憧れを纏って】",
+		"rarity": "SR",
+		"unit_id": 669
+	},
+	{
+		"attribute": "精神",
+		"limited": "",
+		"name": "マリカ・クリシュナ",
+		"nickname": "",
+		"rarity": "SR",
+		"unit_id": 670
+	},
+	{
+		"attribute": "科学",
+		"limited": "",
+		"name": "エルシー・モモア",
+		"nickname": "",
+		"rarity": "HR",
+		"unit_id": 671
+	},
+	{
+		"attribute": "魔性",
+		"limited": "",
+		"name": "グローリア",
+		"nickname": "",
+		"rarity": "R",
+		"unit_id": 672
+	},
+	{
+		"attribute": "超人",
+		"limited": "五車祭",
+		"name": "ＺＥＲＯ紫",
+		"nickname": "【未来彷徨】",
+		"rarity": "SR",
+		"unit_id": 673
+	},
+	{
+		"attribute": "精神",
+		"limited": "五車祭",
+		"name": "ナーサラ",
+		"nickname": "【ポストアポカリプス】",
+		"rarity": "SR",
+		"unit_id": 674
 	}
 ]
